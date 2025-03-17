@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8snqpbxo8jsc"
+path="res://.godot/imported/Rutters.mp3-7d8c941b7639ba728abc1786437927d4.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Rutters.mp3"
+dest_files=["res://.godot/imported/Rutters.mp3-7d8c941b7639ba728abc1786437927d4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

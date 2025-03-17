@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bki32muvriqd7"
+path="res://.godot/imported/Item Drop.mp3-0242034fe05d850f08fe0dcaafb880cb.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Item Drop.mp3"
+dest_files=["res://.godot/imported/Item Drop.mp3-0242034fe05d850f08fe0dcaafb880cb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

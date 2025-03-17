@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://70pi52kodivn"
+path="res://.godot/imported/Underwater Shoot.mp3-bb0dfee3e4a74ae80bf9b026ace65dbf.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Underwater Shoot.mp3"
+dest_files=["res://.godot/imported/Underwater Shoot.mp3-bb0dfee3e4a74ae80bf9b026ace65dbf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

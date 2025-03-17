@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmlpvu017hytm"
+path="res://.godot/imported/Helicopter.mp3-ee5b7b1047e58fe5331d3a4b2ad67f0c.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Helicopter.mp3"
+dest_files=["res://.godot/imported/Helicopter.mp3-ee5b7b1047e58fe5331d3a4b2ad67f0c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

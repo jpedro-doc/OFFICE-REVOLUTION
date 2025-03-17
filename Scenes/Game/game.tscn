@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://2o4naec7ilhi"]
+
+[ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="1_mv0hc"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(640, 364)
+texture = ExtResource("1_mv0hc")

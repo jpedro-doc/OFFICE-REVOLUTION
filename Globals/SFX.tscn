@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3gk6ffksva30"]
+
+[ext_resource type="Script" uid="uid://cctsl73ds7uaw" path="res://Globals/sfx.gd" id="1_bx7bu"]
+[ext_resource type="AudioStream" uid="uid://cq5sbm8blkpri" path="res://Assets/SFX/GB Sound Assets/Unlock.mp3" id="1_m5n21"]
+
+[node name="Sfx" type="Node2D"]
+script = ExtResource("1_bx7bu")
+
+[node name="StartSFX" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_m5n21")
+volume_db = 24.0

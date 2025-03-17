@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1770bfqv64vu"
+path="res://.godot/imported/Car 1-2-3.mp3-7e1c620382d1f3135e593372dc217d17.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Car 1-2-3.mp3"
+dest_files=["res://.godot/imported/Car 1-2-3.mp3-7e1c620382d1f3135e593372dc217d17.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
