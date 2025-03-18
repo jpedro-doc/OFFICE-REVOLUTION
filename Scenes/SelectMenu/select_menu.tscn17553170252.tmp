@@ -1,0 +1,68 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhjibl7majopc"]
+
+[ext_resource type="Texture2D" uid="uid://bbueryuv7h53d" path="res://Assets/Images/Sky_Blue.png" id="1_rjovs"]
+[ext_resource type="PackedScene" uid="uid://bb4vdg3rw7wir" path="res://Scenes/SelectMenu/level_select.tscn" id="2_g86n7"]
+[ext_resource type="PackedScene" uid="uid://dg2fyibk8a50o" path="res://Scenes/SelectMenu/arrow_select.tscn" id="2_occwr"]
+
+[node name="SelectMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_rjovs")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 80
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 192
+
+[node name="Arrow" parent="MarginContainer/HBoxContainer/VBoxContainer2" instance=ExtResource("2_occwr")]
+position = Vector2(84, 61)
+
+[node name="separator" type="Control" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 192
+
+[node name="LevelSelect" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "Faxineiro"
+
+[node name="LevelSelect2" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "Secretaria"
+
+[node name="LevelSelect3" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "Chefe"
+
+[node name="separator2" type="Control" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2

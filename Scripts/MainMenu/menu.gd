@@ -1,25 +1,20 @@
 extends Control
+@onready var black_background: ColorRect = $BlackBackground
 
 var press_space: Node = null
-@onready var black_background: ColorRect = $BlackBackground
-@export var increase_value: float = 1.25
 var value: float = 0.0
-signal space_pressed
+
+var space_not_pressed: bool = true
 
 
 func _ready() -> void:
+	Music.main_menu_music.play()
 	press_space = get_node("MarginContainer/HBoxContainer/VBoxContainer/PressSpace")
-	space_pressed.connect(fade_out)
-	
 	
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("Space"): 
+	if Input.is_action_just_pressed("Space") and space_not_pressed: 
+		Sfx.start_sfx.play()
+		space_not_pressed = false
 		press_space.blink_faster()
-		space_pressed.emit()
-		
-	black_background.modulate.a += value * delta
-	
-func fade_out():
-	await get_tree().create_timer(1.5).timeout
-	value = increase_value
+		black_background.fade_in("res://Scenes/SelectMenu/select_menu.tscn")
 	

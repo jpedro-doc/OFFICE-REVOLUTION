@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkm2ymwt8oqak"
+path="res://.godot/imported/Electrocuted 3.mp3-09f8a3f653ddc7c5e7a3a69ce70a8b15.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Electrocuted 3.mp3"
+dest_files=["res://.godot/imported/Electrocuted 3.mp3-09f8a3f653ddc7c5e7a3a69ce70a8b15.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

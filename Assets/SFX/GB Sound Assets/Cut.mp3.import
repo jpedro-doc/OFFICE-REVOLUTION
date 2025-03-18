@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5ranmtauc5y8"
+path="res://.godot/imported/Cut.mp3-961b90b3a20332dc5cd01ce746b0a946.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Cut.mp3"
+dest_files=["res://.godot/imported/Cut.mp3-961b90b3a20332dc5cd01ce746b0a946.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

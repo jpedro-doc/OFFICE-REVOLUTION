@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dd5r7ttq1tvfd"
+path="res://.godot/imported/Squel 6.mp3-ca5c91118799cd5168e60f33b23d8fda.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Squel 6.mp3"
+dest_files=["res://.godot/imported/Squel 6.mp3-ca5c91118799cd5168e60f33b23d8fda.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bjpgvhukrflbm"
+path="res://.godot/imported/18. Digital Dilemma.wav-e219e7f655759932dab96d2a7fea5cad.sample"
+
+[deps]
+
+source_file="res://Assets/Music/18. Digital Dilemma.wav"
+dest_files=["res://.godot/imported/18. Digital Dilemma.wav-e219e7f655759932dab96d2a7fea5cad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

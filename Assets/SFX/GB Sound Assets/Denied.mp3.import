@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://r6c4cpo6ncy8"
+path="res://.godot/imported/Denied.mp3-b42ef13c14a07a0df24e0c599f5398ed.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Denied.mp3"
+dest_files=["res://.godot/imported/Denied.mp3-b42ef13c14a07a0df24e0c599f5398ed.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

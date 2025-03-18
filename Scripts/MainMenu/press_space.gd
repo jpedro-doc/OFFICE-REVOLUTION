@@ -4,6 +4,7 @@ extends Label
 @onready var appear_timer: Timer = $appearTimer
 @export var blink_timer:float = 0.3
 @export var blick_timer_faster:float = 0.05
+
 func _ready() -> void:
 	dissapear_timer.wait_time = blink_timer
 	appear_timer.wait_time = blink_timer

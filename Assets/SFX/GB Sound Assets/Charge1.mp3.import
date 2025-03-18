@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcl26x1aoq15r"
+path="res://.godot/imported/Charge1.mp3-563cc569f80fcb78b4af2a01789d395e.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Charge1.mp3"
+dest_files=["res://.godot/imported/Charge1.mp3-563cc569f80fcb78b4af2a01789d395e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

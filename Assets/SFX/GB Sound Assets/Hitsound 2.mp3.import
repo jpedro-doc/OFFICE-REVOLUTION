@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ulvnac7qr1ce"
+path="res://.godot/imported/Hitsound 2.mp3-e264624c10ce1e43baac732e6d3c0645.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/GB Sound Assets/Hitsound 2.mp3"
+dest_files=["res://.godot/imported/Hitsound 2.mp3-e264624c10ce1e43baac732e6d3c0645.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
