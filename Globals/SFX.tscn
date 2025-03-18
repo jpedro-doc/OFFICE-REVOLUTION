@@ -7,5 +7,7 @@
 script = ExtResource("1_bx7bu")
 
 [node name="StartSFX" type="AudioStreamPlayer2D" parent="."]
+process_mode = 3
 stream = ExtResource("1_m5n21")
 volume_db = 24.0
+bus = &"SFX"

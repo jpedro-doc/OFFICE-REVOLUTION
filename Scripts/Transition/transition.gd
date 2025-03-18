@@ -3,6 +3,11 @@ extends ColorRect
 var value: float = 0
 
 func _ready() -> void:
+	set_anchors_preset(Control.PRESET_FULL_RECT)
+	modulate.r = 0
+	modulate.g = 0
+	modulate.b = 0
+	visible = true
 	fade_out()
 
 func _process(delta: float) -> void:

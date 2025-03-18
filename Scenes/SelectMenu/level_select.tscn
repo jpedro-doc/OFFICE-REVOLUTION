@@ -13,18 +13,18 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_x2teg")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
-layout_mode = 2
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(42, 42)
+scale = Vector2(0.0810547, 0.0830078)
 texture = ExtResource("1_ko5ld")
 
-[node name="Label" type="Label" parent="HBoxContainer"]
-layout_mode = 2
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 31.0
+offset_right = 154.0
+offset_bottom = 54.0
+theme_override_constants/outline_size = 12
 theme_override_fonts/font = ExtResource("2_elam0")
-text = "Inimigo"
-
-[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer"]
+theme_override_font_sizes/font_size = 24
+text = "enemie"

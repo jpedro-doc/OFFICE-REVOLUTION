@@ -1,11 +1,11 @@
 [gd_scene load_steps=3 format=3 uid="uid://dg2fyibk8a50o"]
 
-[ext_resource type="Texture2D" uid="uid://b7ipiie1r112j" path="res://Assets/Images/download (1).png" id="1_bx0or"]
 [ext_resource type="Script" uid="uid://duf260pjrlpa7" path="res://Scripts/SelectMenu/arrow_select.gd" id="1_pksx0"]
+[ext_resource type="Texture2D" uid="uid://b6xl32mjfkrqn" path="res://Assets/Images/selection_arrow.png" id="2_pksx0"]
 
 [node name="Arrow" type="Node2D"]
 script = ExtResource("1_pksx0")
 
 [node name="TextureRect" type="Sprite2D" parent="."]
-scale = Vector2(0.542222, 0.551111)
-texture = ExtResource("1_bx0or")
+scale = Vector2(0.4, 0.406)
+texture = ExtResource("2_pksx0")

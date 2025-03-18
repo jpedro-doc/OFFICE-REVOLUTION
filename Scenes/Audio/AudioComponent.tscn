@@ -1,0 +1,61 @@
+[gd_scene load_steps=5 format=3 uid="uid://2riasjjlf5od"]
+
+[ext_resource type="Script" uid="uid://ds41ov1llk6xj" path="res://Scripts/Audio/h_slider.gd" id="1_3d4md"]
+[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="2_h41og"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h41og"]
+content_margin_left = 180.0
+content_margin_right = 180.0
+bg_color = Color(0.489573, 0.564344, 0.959153, 1)
+border_width_left = 76
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.954014, 0.956797, 0.95545, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+expand_margin_left = 80.0
+expand_margin_top = 12.0
+expand_margin_right = 7.0
+expand_margin_bottom = 12.0
+shadow_size = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_083ha"]
+bg_color = Color(0.663043, 0.477186, 0.987657, 1)
+corner_radius_top_left = 5
+corner_radius_bottom_left = 5
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+
+[node name="AudioComponent" type="VBoxContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+script = ExtResource("1_3d4md")
+bus_name = "Master"
+
+[node name="HSlider" type="HSlider" parent="."]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/center_grabber = 1
+theme_override_styles/slider = SubResource("StyleBoxFlat_h41og")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_083ha")
+
+[node name="Label" type="Label" parent="HSlider"]
+layout_mode = 0
+offset_left = -75.0
+offset_top = -6.0
+offset_right = -9.0
+offset_bottom = 21.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_h41og")
+theme_override_font_sizes/font_size = 12
+text = "example
+example"
+horizontal_alignment = 1
+autowrap_mode = 2
