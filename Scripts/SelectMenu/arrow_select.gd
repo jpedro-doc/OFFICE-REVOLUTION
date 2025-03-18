@@ -12,6 +12,8 @@ var space_pressed: bool = false
 
 
 
+
+
 func _ready() -> void:
 	limit_down = enemys_container.get_child_count() - 1  
 	move_distance = enemys_container.get("theme_override_constants/separation")
@@ -29,6 +31,8 @@ func _process(delta: float) -> void:
 		global_position.y -= move_distance
 	
 	if Input.is_action_just_pressed("Space"):
+		space_pressed = true
+		Sfx.start_sfx.play()
 		var enemy = enemys_container.get_child(current_limit)
 		black_background.fade_in(enemy.enemy_scene)
 		

@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=3 uid="uid://6rxv4ckeaslc"]
+
+[ext_resource type="Script" uid="uid://hvan4vlp34sh" path="res://Scripts/Audio/menu.gd" id="1_xmp7o"]
+[ext_resource type="Texture2D" uid="uid://bbueryuv7h53d" path="res://Assets/Images/Sky_Blue.png" id="2_xjhav"]
+[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="3_eagcm"]
+[ext_resource type="PackedScene" uid="uid://2riasjjlf5od" path="res://Scenes/Audio/AudioComponent.tscn" id="4_pfc7n"]
+
+[node name="Menu" type="Control"]
+process_mode = 3
+visible = false
+top_level = true
+z_index = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xmp7o")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+modulate = Color(0.454902, 0.454902, 0.454902, 0.321569)
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 192
+theme_override_constants/margin_top = 64
+theme_override_constants/margin_right = 192
+theme_override_constants/margin_bottom = 64
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("2_xjhav")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 64
+
+[node name="Separator" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_eagcm")
+theme_override_font_sizes/font_size = 32
+text = "config menu"
+horizontal_alignment = 1
+
+[node name="AuidoComponent" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_pfc7n")]
+layout_mode = 2
+
+[node name="AuidoComponent2" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_pfc7n")]
+layout_mode = 2
+bus_name = "Music"
+
+[node name="AuidoComponent3" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_pfc7n")]
+layout_mode = 2
+bus_name = "SFX"

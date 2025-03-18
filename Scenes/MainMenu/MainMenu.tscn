@@ -1,0 +1,91 @@
+[gd_scene load_steps=7 format=3 uid="uid://43yj2w3w6co"]
+
+[ext_resource type="Script" uid="uid://dh8d1qqcq7w2g" path="res://Scripts/MainMenu/menu.gd" id="1_ua038"]
+[ext_resource type="PackedScene" uid="uid://6rxv4ckeaslc" path="res://Scenes/ConfigMenu/ConfigMenu.tscn" id="2_8qovt"]
+[ext_resource type="PackedScene" uid="uid://d04e8jj2qekl6" path="res://Scenes/transition.tscn" id="2_vapy7"]
+[ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="3_8qovt"]
+[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="4_0hjx5"]
+[ext_resource type="Script" uid="uid://brlpag8tjbjmi" path="res://Scripts/MainMenu/press_space.gd" id="5_fv0xt"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ua038")
+
+[node name="BlackBackground" parent="." instance=ExtResource("2_vapy7")]
+layout_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_8qovt")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="Separator" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_0hjx5")
+theme_override_font_sizes/font_size = 32
+text = "OFFICE OFFICE REVOLUTION"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 60
+alignment = 1
+
+[node name="Separator2" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Separator" type="Control" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="PressSpace" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("4_0hjx5")
+theme_override_font_sizes/font_size = 32
+text = "PRESS SPACE TO BOOGIE"
+horizontal_alignment = 1
+script = ExtResource("5_fv0xt")
+
+[node name="dissapearTimer" type="Timer" parent="MarginContainer/HBoxContainer/VBoxContainer/PressSpace"]
+wait_time = 0.3
+one_shot = true
+autostart = true
+
+[node name="appearTimer" type="Timer" parent="MarginContainer/HBoxContainer/VBoxContainer/PressSpace"]
+wait_time = 0.3
+one_shot = true
+
+[node name="Menu" parent="." instance=ExtResource("2_8qovt")]
+layout_mode = 1
