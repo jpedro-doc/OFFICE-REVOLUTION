@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://2o4naec7ilhi"]
+
+[ext_resource type="Script" uid="uid://bu02q5uvu037q" path="res://Scripts/Game/game.gd" id="1_ciybh"]
+[ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="2_flgk0"]
+[ext_resource type="Script" uid="uid://c5vxytoklem0h" path="res://Scripts/Transition/transition.gd" id="3_vifcx"]
+[ext_resource type="PackedScene" uid="uid://bm1edone05lx7" path="res://Scenes/Game/Arrows/blank_arrows.tscn" id="4_xfil1"]
+[ext_resource type="Script" path="res://Globals/instantiator.gd" id="5_huoen"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_ciybh")
+difference = 0.25
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(575, 321.25)
+scale = Vector2(0.898438, 0.883037)
+texture = ExtResource("2_flgk0")
+
+[node name="Transition" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("3_vifcx")
+metadata/_custom_type_script = "uid://c5vxytoklem0h"
+
+[node name="BlankArrows" parent="." instance=ExtResource("4_xfil1")]
+position = Vector2(576, 540)
+scale = Vector2(0.7, 0.7)
+
+[node name="Instantiator" type="Node2D" parent="."]
+position = Vector2(576, 540)
+scale = Vector2(0.7, 0.7)
+script = ExtResource("5_huoen")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Instantiator2" type="Node2D" parent="."]
+script = ExtResource("5_huoen")
