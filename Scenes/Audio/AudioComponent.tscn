@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://2riasjjlf5od"]
 
-[ext_resource type="Script" uid="uid://ds41ov1llk6xj" path="res://Scripts/Audio/h_slider.gd" id="1_3d4md"]
+[ext_resource type="Script" uid="uid://ds41ov1llk6xj" path="res://Scripts/Audio/Audio.gd" id="1_3d4md"]
 [ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="2_h41og"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h41og"]
@@ -45,6 +45,10 @@ size_flags_horizontal = 4
 theme_override_constants/center_grabber = 1
 theme_override_styles/slider = SubResource("StyleBoxFlat_h41og")
 theme_override_styles/grabber_area = SubResource("StyleBoxFlat_083ha")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxFlat_083ha")
+max_value = 5.0
+step = 0.001
+value = 5.0
 
 [node name="Label" type="Label" parent="HSlider"]
 layout_mode = 0

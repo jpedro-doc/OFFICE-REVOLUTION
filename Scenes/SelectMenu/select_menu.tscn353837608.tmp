@@ -56,13 +56,13 @@ theme_override_constants/separation = 204
 [node name="LevelSelect" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
 layout_mode = 2
 enemy_name = "janitor"
-enemy_scene = "res://Scenes/Game/Levels/Janitor_level.tscn"
+enemy_scene = "res://Scenes/Game/Janitor_game.tscn"
 enemy_sprite = "res://Assets/Images/Enemies/Zelador.png"
 
 [node name="LevelSelect2" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
 layout_mode = 2
 enemy_name = "secretary"
-enemy_scene = "res://Scenes/Game/Levels/Secretary_level.tscn"
+enemy_scene = "res://Scenes/Game/game.tscn"
 enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
 
 [node name="LevelSelect3" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
@@ -86,14 +86,14 @@ theme_override_constants/separation = 204
 
 [node name="LevelSelect" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
 layout_mode = 2
-enemy_name = "janitor"
-enemy_scene = "res://Scenes/Game/Levels/Janitor.tscn"
-enemy_sprite = "res://Scenes/Game/Levels/Janitor_level.tscn"
+enemy_name = "Faxineiro"
+enemy_scene = "Scenes/game.tscn"
+enemy_sprite = "res://Assets/Images/Enemies/Chefe.png"
 
 [node name="LevelSelect2" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
 layout_mode = 2
 enemy_name = "Secretaria"
-enemy_scene = "res://Scenes/Game/Levels/Secretary_level.tscn"
+enemy_scene = "Scenes/game.tscn"
 enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
 
 [node name="LevelSelect3" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]

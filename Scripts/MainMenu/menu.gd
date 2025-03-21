@@ -1,5 +1,4 @@
 extends Control
-@onready var black_background: ColorRect = $BlackBackground
 
 
 var press_space: Node = null
@@ -17,5 +16,5 @@ func _process(delta: float) -> void:
 		Sfx.start_sfx.play()
 		space_not_pressed = false
 		press_space.blink_faster()
-		black_background.fade_in("res://Scenes/SelectMenu/select_menu.tscn")
+		get_node("BlackBackground").fade_in("res://Scenes/SelectMenu/select_menu.tscn")
 	
