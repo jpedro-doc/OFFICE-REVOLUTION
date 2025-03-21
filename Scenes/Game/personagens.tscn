@@ -1,6 +1,34 @@
-[gd_scene load_steps=44 format=3 uid="uid://de4nge8ir37ej"]
+[gd_scene load_steps=47 format=3 uid="uid://de4nge8ir37ej"]
 
 [ext_resource type="Texture2D" uid="uid://g32ntaucajvg" path="res://Imagens Personagens/faxineiro/Captura_de_tela_2025-03-19_130405-removebg-preview.png" id="1_ped3l"]
+[ext_resource type="Texture2D" uid="uid://bkrreu0qir0cm" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (5).png" id="2_emmpc"]
+[ext_resource type="Texture2D" uid="uid://b7xjguohxdayx" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (6).png" id="3_janm4"]
+[ext_resource type="Texture2D" uid="uid://mbyajs3und8r" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (7).png" id="4_ea1go"]
+[ext_resource type="Texture2D" uid="uid://bp051u668k78a" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (8).png" id="5_eimgw"]
+[ext_resource type="Texture2D" uid="uid://vb78ewoubdfj" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__1_-removebg-preview.png" id="6_34wbi"]
+[ext_resource type="Texture2D" uid="uid://b5ykp52f1k8xu" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__2_-removebg-preview.png" id="7_57hqo"]
+[ext_resource type="Texture2D" uid="uid://dkcrtatxhda3c" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__4_-removebg-preview.png" id="8_jhirx"]
+[ext_resource type="Texture2D" uid="uid://reghe61ad6fg" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__9_-removebg-preview.png" id="9_33tdr"]
+[ext_resource type="Texture2D" uid="uid://c7yq3dgpdfk8y" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__10_-removebg-preview.png" id="10_2oobv"]
+[ext_resource type="Texture2D" uid="uid://dg03je85a2aq3" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__11_-removebg-preview.png" id="11_wupnf"]
+[ext_resource type="Texture2D" uid="uid://46st8en00p" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (1).png" id="12_r21ml"]
+[ext_resource type="Texture2D" uid="uid://bw3drmv1cee7b" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (2).png" id="13_crdnm"]
+[ext_resource type="Texture2D" uid="uid://by3wbt866ow1e" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (3).png" id="14_blj8s"]
+[ext_resource type="Texture2D" uid="uid://8u3gqb67rfen" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (4).png" id="15_5dtvo"]
+[ext_resource type="Texture2D" uid="uid://ckxluj148jjbc" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (5).png" id="16_cfu0q"]
+[ext_resource type="Texture2D" uid="uid://dm1uf6xv4umr5" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop__6_-removebg-preview.png" id="17_qbnh2"]
+[ext_resource type="Texture2D" uid="uid://dmoa7nrrv2p42" path="res://Imagens Personagens/secretária/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop__7_-removebg-preview.png" id="18_ljic4"]
+[ext_resource type="Texture2D" uid="uid://cu1r78j2y5twp" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (1).png" id="19_qeup3"]
+[ext_resource type="Texture2D" uid="uid://dee4qmkyt21rx" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (3).png" id="20_wkv8m"]
+[ext_resource type="Texture2D" uid="uid://b8c82jch6bm5w" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (8).png" id="21_xfr85"]
+[ext_resource type="Texture2D" uid="uid://6an5t8gc14f6" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (9).png" id="22_v7g4g"]
+[ext_resource type="Texture2D" uid="uid://6u46kwsfe1d1" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (4).png" id="23_its4d"]
+[ext_resource type="Texture2D" uid="uid://bw1g8ekgstm6i" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (2).png" id="24_4rbk5"]
+[ext_resource type="Texture2D" uid="uid://cb5q0dionte25" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (5).png" id="25_wbkur"]
+[ext_resource type="Texture2D" uid="uid://c5tw5omme0f8s" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (10).png" id="26_6tkxl"]
+[ext_resource type="Texture2D" uid="uid://dirkre5vw5xg0" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (11).png" id="27_gt4f3"]
+[ext_resource type="Texture2D" uid="uid://cuk4thbkfyls1" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (12).png" id="28_steew"]
+[ext_resource type="Texture2D" uid="uid://db4w8aqj2fvsd" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop.png" id="29_g4cy7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ktfp2"]
 atlas = ExtResource("1_ped3l")
@@ -94,174 +122,108 @@ animations = [{
 "speed": 7.0
 }]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_go03x"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__1_-removebg-preview.png-b2894fb52a76cbbd6bbe62751604f94c.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ftefy"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__13_-removebg-preview.png-b1783abda9c35475cbdfb3480dc69c97.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_txnut"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop-removebg-preview.png-ab365bdcaa2c74deda309b12e16d6a3a.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ped3l"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__2_-removebg-preview.png-2947657cf8e91b75a92fb5687c83842a.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_id0c5"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__4_-removebg-preview.png-868c763b85f734807c542070703e5197.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_01440"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__9_-removebg-preview.png-9db4ed445d1aafab74bfc9843fc95565.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6mjo2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__10_-removebg-preview.png-71be9a2c2043595d003d4e9b3ca17902.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ktfp2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__11_-removebg-preview.png-1451b7368d1c13c7cd1bc47a23796498.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o6i6i"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__12_-removebg-preview.png-9a7a0909e1329cfa1d254fd090df02a4.ctex"
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_emmpc"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_go03x")
+"texture": ExtResource("2_emmpc")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_ftefy")
+"texture": ExtResource("3_janm4")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_txnut")
+"texture": ExtResource("4_ea1go")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_ped3l")
+"texture": ExtResource("5_eimgw")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_id0c5")
+"texture": ExtResource("6_34wbi")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_01440")
+"texture": ExtResource("7_57hqo")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_6mjo2")
+"texture": ExtResource("8_jhirx")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_ktfp2")
+"texture": ExtResource("9_33tdr")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_o6i6i")
+"texture": ExtResource("10_2oobv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wupnf")
 }],
 "loop": true,
 "name": &"new_animation",
 "speed": 5.0
 }]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_56h8q"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (1).png-b9ded6b7004ff995028c0e3aa8c87486.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1d73e"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (2).png-826db223a14e6c05aae8a3031e656e62.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2vin6"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (3).png-a2e474fc4547d4db22e143bf5612e541.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i4pn1"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (4).png-2df5bfdb50ef1e5f5adc2d56d55511ee.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n2dj2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (5).png-f5c9d3b4705ff9863660dc01d9f1ac5c.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wo5hx"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop__6_-removebg-preview.png-c57dc14bab387b0710b991ee2f47af96.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2ud6m"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop__7_-removebg-preview.png-54b2983df278adcc80b726dfc1dc5156.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2oobv"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_56h8q")
+"texture": ExtResource("12_r21ml")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_1d73e")
+"texture": ExtResource("13_crdnm")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_2vin6")
+"texture": ExtResource("14_blj8s")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_i4pn1")
+"texture": ExtResource("15_5dtvo")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_n2dj2")
+"texture": ExtResource("16_cfu0q")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_wo5hx")
+"texture": ExtResource("17_qbnh2")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_2ud6m")
+"texture": ExtResource("18_ljic4")
 }],
 "loop": true,
 "name": &"new_animation",
 "speed": 5.0
 }]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n16ks"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (3).png-3bb47b514a3de22fc208653f65737d81.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jlxid"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (4).png-0090066cf9ce5856a51271902b939544.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6iq3j"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (9).png-dfac404f522f77c7fc0bb2b89c4967b7.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8h443"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop.png-fceca8657acc72e453dd0c69b1b974ea.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iq6o2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (2).png-510f06717e1ee204ebb4bc04e797504b.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lp0va"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (5).png-8b1e15b8de99954234e95472350e1d97.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c4x00"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (10).png-b1120191decfb6fabe1d1ed65979ac37.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ay2lt"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (11).png-1f076162c1fadb5b86ee2e146c86a547.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mnu6k"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (12).png-17674064cd7f93ee75f1a39ccab68838.ctex"
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_qbnh2"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_n16ks")
+"texture": ExtResource("19_qeup3")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_jlxid")
+"texture": ExtResource("20_wkv8m")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_6iq3j")
+"texture": ExtResource("21_xfr85")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_8h443")
+"texture": ExtResource("22_v7g4g")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_iq6o2")
+"texture": ExtResource("23_its4d")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_lp0va")
+"texture": ExtResource("24_4rbk5")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_c4x00")
+"texture": ExtResource("25_wbkur")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_ay2lt")
+"texture": ExtResource("26_6tkxl")
 }, {
 "duration": 1.0,
-"texture": SubResource("CompressedTexture2D_mnu6k")
+"texture": ExtResource("27_gt4f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_steew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_g4cy7")
 }],
 "loop": true,
 "name": &"new_animation",
@@ -275,37 +237,40 @@ point_count = 2
 [node name="Personagens" type="Node2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(799, -120)
+position = Vector2(794, -49)
 scale = Vector2(5.26316, 3.94939)
 sprite_frames = SubResource("SpriteFrames_8h443")
 frame_progress = 0.320674
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
-position = Vector2(707.78, 825.715)
-scale = Vector2(6.09971, 4.67435)
+position = Vector2(-1754, 232)
+scale = Vector2(9.75432, 6.02595)
 sprite_frames = SubResource("SpriteFrames_emmpc")
 animation = &"new_animation"
-frame_progress = 0.433254
+frame = 2
+frame_progress = 0.667658
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
-position = Vector2(-108, -129)
-scale = Vector2(2.93, 2.64493)
+position = Vector2(-285.145, 212.112)
+scale = Vector2(6.69904, 5.20968)
 sprite_frames = SubResource("SpriteFrames_2oobv")
 animation = &"new_animation"
-frame_progress = 0.180999
+frame = 4
+frame_progress = 0.931074
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
-position = Vector2(-130, 830)
-scale = Vector2(4.70943, 3.33236)
+position = Vector2(2061.25, 451.383)
+scale = Vector2(9.12216, 6.27209)
 sprite_frames = SubResource("SpriteFrames_qbnh2")
 animation = &"new_animation"
-frame_progress = 0.106178
+frame = 2
+frame_progress = 0.84336
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2(-128, 832)
+position = Vector2(2065, 433)
 scale = Vector2(10, 10)
 emitting = false
-amount = 300
+amount = 600
 explosiveness = 1.0
 spread = 180.0
 gravity = Vector2(0, 0)
