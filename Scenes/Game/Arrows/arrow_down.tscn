@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmmhsa1s4hnak"]
+
+[ext_resource type="PackedScene" uid="uid://mhen0mhng6al" path="res://Scenes/Game/Arrows/Arrow.tscn" id="1_dwbsg"]
+
+[node name="down" instance=ExtResource("1_dwbsg")]
+position = Vector2(531, 0)
+key = "down"
+
+[node name="Sprite2D" parent="." index="0"]
+frame = 1

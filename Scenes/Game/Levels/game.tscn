@@ -1,0 +1,101 @@
+[gd_scene load_steps=18 format=3 uid="uid://2o4naec7ilhi"]
+
+[ext_resource type="Script" uid="uid://bu02q5uvu037q" path="res://Scripts/Game/game.gd" id="1_ciybh"]
+[ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="2_flgk0"]
+[ext_resource type="Script" uid="uid://c5vxytoklem0h" path="res://Scripts/Transition/transition.gd" id="3_vifcx"]
+[ext_resource type="PackedScene" uid="uid://bm1edone05lx7" path="res://Scenes/Game/Arrows/blank_arrows.tscn" id="4_xfil1"]
+[ext_resource type="Script" path="res://Globals/instantiator.gd" id="5_huoen"]
+[ext_resource type="Texture2D" uid="uid://cu1r78j2y5twp" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (1).png" id="6_3ejvm"]
+[ext_resource type="Texture2D" uid="uid://dee4qmkyt21rx" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (3).png" id="7_i4g5t"]
+[ext_resource type="Texture2D" uid="uid://b8c82jch6bm5w" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (8).png" id="8_wthbm"]
+[ext_resource type="Texture2D" uid="uid://6an5t8gc14f6" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (9).png" id="9_4r1fh"]
+[ext_resource type="Texture2D" uid="uid://6u46kwsfe1d1" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (4).png" id="10_4rjfh"]
+[ext_resource type="Texture2D" uid="uid://bw1g8ekgstm6i" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (2).png" id="11_85oq5"]
+[ext_resource type="Texture2D" uid="uid://cb5q0dionte25" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (5).png" id="12_t6lgj"]
+[ext_resource type="Texture2D" uid="uid://c5tw5omme0f8s" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (10).png" id="13_2vmyh"]
+[ext_resource type="Texture2D" uid="uid://dirkre5vw5xg0" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (11).png" id="14_uihqp"]
+[ext_resource type="Texture2D" uid="uid://cuk4thbkfyls1" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (12).png" id="15_plxbj"]
+[ext_resource type="Texture2D" uid="uid://db4w8aqj2fvsd" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop.png" id="16_gegif"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_11r3b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_3ejvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_i4g5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wthbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_4r1fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_4rjfh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_85oq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_t6lgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_2vmyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_uihqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_plxbj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_gegif")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_ciybh")
+difference = 0.25
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(575, 321.25)
+scale = Vector2(0.898438, 0.883037)
+texture = ExtResource("2_flgk0")
+
+[node name="Transition" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("3_vifcx")
+metadata/_custom_type_script = "uid://c5vxytoklem0h"
+
+[node name="BlankArrows" parent="." instance=ExtResource("4_xfil1")]
+position = Vector2(576, 540)
+scale = Vector2(0.7, 0.7)
+
+[node name="Instantiator" type="Node2D" parent="."]
+position = Vector2(576, 540)
+scale = Vector2(0.7, 0.7)
+script = ExtResource("5_huoen")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="Instantiator2" type="Node2D" parent="."]
+script = ExtResource("5_huoen")
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+position = Vector2(186.218, 450.202)
+scale = Vector2(1.963, 1.273)
+sprite_frames = SubResource("SpriteFrames_11r3b")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.837662

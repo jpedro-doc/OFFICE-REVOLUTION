@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c80n0vn8y18yv"]
+
+[ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="1_l3ghx"]
+
+[node name="Instantiator" type="Node2D"]
+top_level = true
+script = ExtResource("1_l3ghx")

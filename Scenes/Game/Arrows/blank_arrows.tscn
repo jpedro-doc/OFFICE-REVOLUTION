@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://bm1edone05lx7"]
+
+[ext_resource type="Script" uid="uid://bibfm64rna5iq" path="res://Scripts/Game/Arrow/blank_arrows.gd" id="1_8dh82"]
+[ext_resource type="Texture2D" uid="uid://bsssn8mr012e8" path="res://Assets/Images/Arrows/6195c30c4ecfa.png" id="1_dimp0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8dh82"]
+size = Vector2(210, 210)
+
+[node name="BlankArrows" type="Node2D"]
+script = ExtResource("1_8dh82")
+
+[node name="left" type="Sprite2D" parent="."]
+position = Vector2(-186, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_dimp0")
+hframes = 4
+vframes = 3
+region_enabled = true
+region_rect = Rect2(1, 0, 849, 636)
+
+[node name="Area2D" type="Area2D" parent="left"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="left/Area2D"]
+position = Vector2(-2, -2)
+shape = SubResource("RectangleShape2D_8dh82")
+
+[node name="down" type="Sprite2D" parent="."]
+position = Vector2(-66, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_dimp0")
+hframes = 4
+vframes = 3
+frame = 1
+region_enabled = true
+region_rect = Rect2(1, 0, 849, 636)
+
+[node name="Area2D" type="Area2D" parent="down"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="down/Area2D"]
+position = Vector2(-2, -2)
+shape = SubResource("RectangleShape2D_8dh82")
+
+[node name="up" type="Sprite2D" parent="."]
+position = Vector2(68, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_dimp0")
+hframes = 4
+vframes = 3
+frame = 2
+region_enabled = true
+region_rect = Rect2(1, 0, 849, 636)
+
+[node name="Area2D" type="Area2D" parent="up"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="up/Area2D"]
+position = Vector2(-2, -2)
+shape = SubResource("RectangleShape2D_8dh82")
+
+[node name="right" type="Sprite2D" parent="."]
+position = Vector2(194, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_dimp0")
+hframes = 4
+vframes = 3
+frame = 3
+region_enabled = true
+region_rect = Rect2(1, 0, 849, 636)
+
+[node name="Area2D" type="Area2D" parent="right"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="right/Area2D"]
+position = Vector2(-2, -2)
+shape = SubResource("RectangleShape2D_8dh82")
