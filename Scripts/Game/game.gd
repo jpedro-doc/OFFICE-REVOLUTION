@@ -1,6 +1,5 @@
 extends Node2D
 
-@onready var timer: Timer = $Timer
 @export var difference: float
 
 @export var file = "res://notes_chart.json"
@@ -30,10 +29,12 @@ var arrow = {
 		#hold = time.time
 
 func _ready() -> void:
+	
 	Music.main_menu_music.stop()
 	
 	if Globals.enemy_chosen == "janitor": Music.janitor_song.play()
 	if Globals.enemy_chosen == "secretary": Music.secretary_song.play()
+	if Globals.enemy_chosen == "boss": Music.boss_song.play()
 	
 	var previous_arrow: String
 	var previous_time: float = 10
