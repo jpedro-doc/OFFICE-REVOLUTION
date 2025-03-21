@@ -19,6 +19,7 @@ func fade_in(scene: String):
 	modulate.a = 0
 	value = 1.5
 	await get_tree().create_timer(1.0).timeout
+	if not Music.main_menu_music.playing: Music.main_menu_music.play()
 	get_tree().change_scene_to_file(scene)
 
 func fade_out():

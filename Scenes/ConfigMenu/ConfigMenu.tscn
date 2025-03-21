@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://6rxv4ckeaslc"]
+[gd_scene load_steps=6 format=3 uid="uid://6rxv4ckeaslc"]
 
-[ext_resource type="Script" uid="uid://hvan4vlp34sh" path="res://Scripts/Audio/menu.gd" id="1_xmp7o"]
+[ext_resource type="Script" uid="uid://hvan4vlp34sh" path="res://Scripts/ConfigMenu/menu.gd" id="1_xmp7o"]
 [ext_resource type="Texture2D" uid="uid://kx01ehm5ceqk" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.14.18_8ad63156.jpg" id="2_xmp7o"]
 [ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="3_eagcm"]
 [ext_resource type="PackedScene" uid="uid://2riasjjlf5od" path="res://Scenes/Audio/AudioComponent.tscn" id="4_pfc7n"]
+[ext_resource type="Theme" uid="uid://d17hlibhev0hm" path="res://Assets/Themes/exit_button.tres" id="5_xjhav"]
 
 [node name="Menu" type="Control"]
 process_mode = 3
@@ -70,3 +71,18 @@ bus_name = "Music"
 [node name="AuidoComponent3" parent="MarginContainer/VBoxContainer" instance=ExtResource("4_pfc7n")]
 layout_mode = 2
 bus_name = "SFX"
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 240
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 240
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("5_xjhav")
+theme_override_fonts/font = ExtResource("3_eagcm")
+theme_override_font_sizes/font_size = 24
+text = "Exit Level"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/MarginContainer/Button" to="." method="_on_button_pressed"]

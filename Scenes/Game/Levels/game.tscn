@@ -1,16 +1,12 @@
-
-[gd_scene load_steps=18 format=3 uid="uid://2o4naec7ilhi"]
+[gd_scene load_steps=19 format=3 uid="uid://2o4naec7ilhi"]
 
 [ext_resource type="Script" uid="uid://bu02q5uvu037q" path="res://Scripts/Game/game.gd" id="1_ciybh"]
 [ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="2_flgk0"]
 [ext_resource type="Script" uid="uid://c5vxytoklem0h" path="res://Scripts/Transition/transition.gd" id="3_vifcx"]
 [ext_resource type="PackedScene" uid="uid://bm1edone05lx7" path="res://Scenes/Game/Arrows/blank_arrows.tscn" id="4_xfil1"]
-
 [ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="5_huoen"]
-[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="6_snmm7"]
-
-[ext_resource type="Script" path="res://Globals/instantiator.gd" id="5_huoen"]
 [ext_resource type="Texture2D" uid="uid://cu1r78j2y5twp" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (1).png" id="6_3ejvm"]
+[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="6_snmm7"]
 [ext_resource type="Texture2D" uid="uid://dee4qmkyt21rx" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (3).png" id="7_i4g5t"]
 [ext_resource type="Texture2D" uid="uid://b8c82jch6bm5w" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (8).png" id="8_wthbm"]
 [ext_resource type="Texture2D" uid="uid://6an5t8gc14f6" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (9).png" id="9_4r1fh"]
@@ -63,7 +59,6 @@ animations = [{
 "speed": 5.0
 }]
 
-
 [node name="Game" type="Node2D"]
 process_mode = 1
 script = ExtResource("1_ciybh")
@@ -93,14 +88,12 @@ position = Vector2(576, 540)
 scale = Vector2(0.7, 0.7)
 script = ExtResource("5_huoen")
 
-
 [node name="Label" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
 theme_override_fonts/font = ExtResource("6_snmm7")
 theme_override_font_sizes/font_size = 24
 text = "score:"
-
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(186.218, 450.202)
