@@ -6,6 +6,7 @@
 [node name="Game" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(640, 364)
 texture = ExtResource("1_mv0hc")
 

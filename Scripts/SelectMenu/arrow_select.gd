@@ -10,10 +10,6 @@ var space_pressed: bool = false
 @onready var black_background: ColorRect = $"../../../../BlackBackground"
 
 
-
-
-
-
 func _ready() -> void:
 	limit_down = enemys_container.get_child_count() - 1  
 	move_distance = enemys_container.get("theme_override_constants/separation")
