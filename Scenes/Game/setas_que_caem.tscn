@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt0r48w4cmql"]
+
+[ext_resource type="Script" uid="uid://gplc6g5i5xr7" path="res://Scenes/Game/setas_que_caem.gd" id="1_18rpd"]
+[ext_resource type="Texture2D" uid="uid://dnjgjl57bhm4p" path="res://Assets/Images/arrows.png" id="2_hxb75"]
+
+[node name="SetasQueCaem" type="Node2D"]
+script = ExtResource("1_18rpd")
+
+[node name="Arrows" type="Sprite2D" parent="."]
+position = Vector2(783, -58)
+texture = ExtResource("2_hxb75")
+hframes = 4
+vframes = 3
+frame = 4
+
+[node name="Arrows2" type="Sprite2D" parent="."]
+position = Vector2(783, -58)
+texture = ExtResource("2_hxb75")
+hframes = 4
+vframes = 3
+frame = 4
+
+[node name="Arrows3" type="Sprite2D" parent="."]
+position = Vector2(783, -58)
+texture = ExtResource("2_hxb75")
+hframes = 4
+vframes = 3
+frame = 4
+
+[node name="Arrows4" type="Sprite2D" parent="."]
+position = Vector2(783, -58)
+texture = ExtResource("2_hxb75")
+hframes = 4
+vframes = 3
+frame = 4

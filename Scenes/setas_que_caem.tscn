@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://cxtytn1yyti2"]
+
+[ext_resource type="Texture2D" uid="uid://dnjgjl57bhm4p" path="res://Assets/Images/arrows.png" id="1_f00nh"]
+[ext_resource type="Script" uid="uid://cm1oc238acuag" path="res://Scenes/Game/seta_que_cai_1.gd" id="2_18rpd"]
+[ext_resource type="Script" uid="uid://cryeayggcvsur" path="res://Scenes/Game/seta_que_cai_2.gd" id="3_jjc7p"]
+[ext_resource type="Script" uid="uid://bjd758ebokdiy" path="res://Scenes/Game/seta_que_cai_3.gd" id="4_h0k82"]
+[ext_resource type="Script" uid="uid://chv0nshfqmtmu" path="res://Scenes/Game/seta_que_cai_4.gd" id="5_3r38o"]
+
+[node name="Steas_que_Caem" type="Node2D"]
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Seta_que_cai1" type="Sprite2D" parent="."]
+position = Vector2(185, -378.91)
+texture = ExtResource("1_f00nh")
+hframes = 4
+vframes = 3
+frame = 4
+script = ExtResource("2_18rpd")
+
+[node name="Seta_que_cai2" type="Sprite2D" parent="."]
+position = Vector2(425, -378.91)
+texture = ExtResource("1_f00nh")
+hframes = 4
+vframes = 3
+frame = 7
+script = ExtResource("3_jjc7p")
+
+[node name="Seta_que_cai3" type="Sprite2D" parent="."]
+position = Vector2(345, -378.91)
+texture = ExtResource("1_f00nh")
+hframes = 4
+vframes = 3
+frame = 6
+script = ExtResource("4_h0k82")
+
+[node name="Seta_que_cai4" type="Sprite2D" parent="."]
+position = Vector2(265, -378.91)
+texture = ExtResource("1_f00nh")
+hframes = 4
+vframes = 3
+frame = 5
+script = ExtResource("5_3r38o")
+
+[node name="Camera2D" type="Camera2D" parent="."]

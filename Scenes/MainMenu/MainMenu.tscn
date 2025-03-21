@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="3_8qovt"]
 [ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="4_0hjx5"]
 [ext_resource type="Script" uid="uid://brlpag8tjbjmi" path="res://Scripts/MainMenu/press_space.gd" id="5_fv0xt"]
-[ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="5_ua038"]
+[ext_resource type="Script" path="res://Globals/instantiator.gd" id="5_ua038"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -85,4 +85,3 @@ one_shot = true
 
 [node name="Instantiator" type="Node2D" parent="."]
 script = ExtResource("5_ua038")
-metadata/_custom_type_script = "uid://du2i55nuxrvyl"

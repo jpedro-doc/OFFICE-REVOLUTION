@@ -9,9 +9,13 @@ var current_limit: int = 0
 var space_pressed: bool = false
 
 @onready var enemys_container: VBoxContainer = $"../../EnemysContainer"
+<<<<<<< HEAD
 @onready var appear_timer: Timer = $AppearTimer
 @onready var dissapear_timer: Timer = $DissapearTimer
 @onready var h_box_container: HBoxContainer = $"../.."
+=======
+@onready var black_background: ColorRect = $"../../../../BlackBackground"
+>>>>>>> origin
 
 
 func _ready() -> void:
