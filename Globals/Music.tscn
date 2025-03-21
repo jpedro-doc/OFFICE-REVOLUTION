@@ -1,21 +1,29 @@
-[gd_scene load_steps=5 format=3 uid="uid://dnrmefgep0i01"]
+[gd_scene load_steps=6 format=3 uid="uid://dnrmefgep0i01"]
 
 [ext_resource type="AudioStream" uid="uid://bkubkwvq0tlbt" path="res://Assets/Music/20. Energy Blast.wav" id="1_mf6ua"]
-[ext_resource type="Script" uid="uid://q75axsw2sywp" path="res://Globals/music.gd" id="1_sl8yk"]
+[ext_resource type="Script" uid="uid://q75axsw2sywp" path="res://Globals/Music.gd" id="1_sl8yk"]
 [ext_resource type="AudioStream" uid="uid://d4mxq0arrn4al" path="res://Assets/Music/2. Power Synth.wav" id="3_es0aw"]
 [ext_resource type="AudioStream" uid="uid://du4x7h7y4kdgw" path="res://Assets/Music/3. Sirens Before the Drop.wav" id="4_4ojo0"]
+[ext_resource type="AudioStream" uid="uid://bpkw5q0alvjcv" path="res://Assets/Music/4. Pow Pow Lazers.wav" id="5_f5jpw"]
 
 [node name="Music" type="Node2D"]
 process_mode = 3
 script = ExtResource("1_sl8yk")
 
 [node name="MainMenuMusic" type="AudioStreamPlayer2D" parent="."]
+process_mode = 3
 stream = ExtResource("1_mf6ua")
 autoplay = true
 bus = &"Music"
 
 [node name="JanitorSong" type="AudioStreamPlayer2D" parent="."]
+process_mode = 1
 stream = ExtResource("3_es0aw")
 
 [node name="SecretarySong" type="AudioStreamPlayer2D" parent="."]
+process_mode = 1
 stream = ExtResource("4_4ojo0")
+
+[node name="BossSong" type="AudioStreamPlayer2D" parent="."]
+process_mode = 1
+stream = ExtResource("5_f5jpw")

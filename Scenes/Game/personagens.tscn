@@ -95,31 +95,22 @@ animations = [{
 }]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_go03x"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__1_-removebg-preview.png-b2894fb52a76cbbd6bbe62751604f94c.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ftefy"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__13_-removebg-preview.png-b1783abda9c35475cbdfb3480dc69c97.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_txnut"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop-removebg-preview.png-ab365bdcaa2c74deda309b12e16d6a3a.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ped3l"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__2_-removebg-preview.png-2947657cf8e91b75a92fb5687c83842a.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_id0c5"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__4_-removebg-preview.png-868c763b85f734807c542070703e5197.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_01440"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__9_-removebg-preview.png-9db4ed445d1aafab74bfc9843fc95565.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6mjo2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__10_-removebg-preview.png-71be9a2c2043595d003d4e9b3ca17902.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ktfp2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__11_-removebg-preview.png-1451b7368d1c13c7cd1bc47a23796498.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o6i6i"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__12_-removebg-preview.png-9a7a0909e1329cfa1d254fd090df02a4.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_emmpc"]
 animations = [{
@@ -157,25 +148,18 @@ animations = [{
 }]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_56h8q"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (1).png-b9ded6b7004ff995028c0e3aa8c87486.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1d73e"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (2).png-826db223a14e6c05aae8a3031e656e62.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2vin6"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (3).png-a2e474fc4547d4db22e143bf5612e541.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i4pn1"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (4).png-2df5bfdb50ef1e5f5adc2d56d55511ee.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n2dj2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop (5).png-f5c9d3b4705ff9863660dc01d9f1ac5c.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wo5hx"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop__6_-removebg-preview.png-c57dc14bab387b0710b991ee2f47af96.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2ud6m"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_165047-removebg-preview2-ezgif.com-crop__7_-removebg-preview.png-54b2983df278adcc80b726dfc1dc5156.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2oobv"]
 animations = [{
@@ -207,31 +191,22 @@ animations = [{
 }]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n16ks"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (3).png-3bb47b514a3de22fc208653f65737d81.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jlxid"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (4).png-0090066cf9ce5856a51271902b939544.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6iq3j"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (9).png-dfac404f522f77c7fc0bb2b89c4967b7.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8h443"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop.png-fceca8657acc72e453dd0c69b1b974ea.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iq6o2"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (2).png-510f06717e1ee204ebb4bc04e797504b.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lp0va"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (5).png-8b1e15b8de99954234e95472350e1d97.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c4x00"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (10).png-b1120191decfb6fabe1d1ed65979ac37.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ay2lt"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (11).png-1f076162c1fadb5b86ee2e146c86a547.ctex"
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mnu6k"]
-load_path = "res://.godot/imported/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (12).png-17674064cd7f93ee75f1a39ccab68838.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qbnh2"]
 animations = [{
@@ -278,6 +253,7 @@ point_count = 2
 position = Vector2(799, -120)
 scale = Vector2(5.26316, 3.94939)
 sprite_frames = SubResource("SpriteFrames_8h443")
+autoplay = "default"
 frame_progress = 0.320674
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]

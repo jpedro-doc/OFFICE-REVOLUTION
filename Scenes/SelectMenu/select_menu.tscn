@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d2o41blt2qpip" path="res://Assets/Images/Fundo.webp" id="2_76ppw"]
 [ext_resource type="PackedScene" uid="uid://bb4vdg3rw7wir" path="res://Scenes/SelectMenu/level_select.tscn" id="2_g86n7"]
 [ext_resource type="PackedScene" uid="uid://dg2fyibk8a50o" path="res://Scenes/SelectMenu/arrow_select.tscn" id="2_occwr"]
-[ext_resource type="Script" path="res://Globals/instantiator.gd" id="6_vkje1"]
+[ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="6_vkje1"]
 
 [node name="SelectMenu" type="Control"]
 layout_mode = 3
@@ -67,8 +67,8 @@ enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
 
 [node name="LevelSelect3" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
 layout_mode = 2
-enemy_name = "Chefe"
-enemy_scene = "res://Scenes/Game/game.tscn"
+enemy_name = "boss"
+enemy_scene = "res://Scenes/Game/Levels/Boss_level.tscn"
 enemy_sprite = "res://Assets/Images/Enemies/Chefe.png"
 
 [node name="separator2" type="Control" parent="MarginContainer/HBoxContainer"]
