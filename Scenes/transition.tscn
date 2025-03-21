@@ -4,6 +4,7 @@
 
 [node name="BlackBackground" type="ColorRect"]
 process_mode = 3
+visible = false
 modulate = Color(1, 1, 1, 0)
 top_level = true
 anchors_preset = 15

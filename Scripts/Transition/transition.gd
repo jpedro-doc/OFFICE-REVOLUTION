@@ -14,6 +14,7 @@ func _process(delta: float) -> void:
 	modulate.a += value * delta
 
 func fade_in(scene: String):
+	visible = true
 	await get_tree().create_timer(1.5).timeout
 	modulate.a = 0
 	value = 1.5

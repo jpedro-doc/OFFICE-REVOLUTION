@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://csjned2rl8ma1"]
+
+[ext_resource type="PackedScene" uid="uid://mhen0mhng6al" path="res://Scenes/Game/Arrows/Arrow.tscn" id="1_i1fq4"]
+
+[node name="up" instance=ExtResource("1_i1fq4")]
+position = Vector2(623, 0)
+key = "up"
+
+[node name="Sprite2D" parent="." index="0"]
+frame = 2

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjcaj3gs1330o"]
+
+[ext_resource type="PackedScene" uid="uid://mhen0mhng6al" path="res://Scenes/Game/Arrows/Arrow.tscn" id="1_hu4mg"]
+
+[node name="left" instance=ExtResource("1_hu4mg")]
+position = Vector2(448, 0)
+key = "left"

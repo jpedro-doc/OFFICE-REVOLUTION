@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3dsol7sgjvug"
-path="res://.godot/imported/download.jpeg-50420699d24e675a999178329c8db80f.ctex"
+uid="uid://b6xl32mjfkrqn"
+path="res://.godot/imported/selection_arrow.png-32d02365aae8c49622faf5a2386897e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Images/download.jpeg"
-dest_files=["res://.godot/imported/download.jpeg-50420699d24e675a999178329c8db80f.ctex"]
+source_file="res://Assets/Images/Arrows/selection_arrow.png"
+dest_files=["res://.godot/imported/selection_arrow.png-32d02365aae8c49622faf5a2386897e7.ctex"]
 
 [params]
 

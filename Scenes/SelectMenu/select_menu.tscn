@@ -1,10 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://bhjibl7majopc"]
+[gd_scene load_steps=5 format=3 uid="uid://bhjibl7majopc"]
 
 [ext_resource type="Texture2D" uid="uid://d2o41blt2qpip" path="res://Assets/Images/Fundo.webp" id="2_76ppw"]
 [ext_resource type="PackedScene" uid="uid://bb4vdg3rw7wir" path="res://Scenes/SelectMenu/level_select.tscn" id="2_g86n7"]
 [ext_resource type="PackedScene" uid="uid://dg2fyibk8a50o" path="res://Scenes/SelectMenu/arrow_select.tscn" id="2_occwr"]
-[ext_resource type="PackedScene" uid="uid://d04e8jj2qekl6" path="res://Scenes/transition.tscn" id="4_y1mqp"]
-[ext_resource type="PackedScene" uid="uid://6rxv4ckeaslc" path="res://Scenes/ConfigMenu/ConfigMenu.tscn" id="6_76ppw"]
+[ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="6_vkje1"]
 
 [node name="SelectMenu" type="Control"]
 layout_mode = 3
@@ -40,15 +39,12 @@ theme_override_constants/margin_bottom = 12
 layout_mode = 2
 theme_override_constants/separation = 96
 
-[node name="separator1" type="Control" parent="MarginContainer/HBoxContainer"]
-layout_mode = 2
-
 [node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 theme_override_constants/separation = 192
 
 [node name="Arrow" parent="MarginContainer/HBoxContainer/VBoxContainer2" instance=ExtResource("2_occwr")]
-position = Vector2(84, 45)
+position = Vector2(129, 45)
 
 [node name="separator4" type="Control" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
@@ -59,13 +55,13 @@ theme_override_constants/separation = 204
 
 [node name="LevelSelect" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
 layout_mode = 2
-enemy_name = "Faxineiro"
-enemy_scene = "res://Scenes/Game/game.tscn"
-enemy_sprite = "res://Assets/Images/Enemies/Chefe.png"
+enemy_name = "janitor"
+enemy_scene = "res://Scenes/Game/Janitor_game.tscn"
+enemy_sprite = "res://Assets/Images/Enemies/Zelador.png"
 
 [node name="LevelSelect2" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
 layout_mode = 2
-enemy_name = "Secretaria"
+enemy_name = "secretary"
 enemy_scene = "res://Scenes/Game/game.tscn"
 enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
 
@@ -73,14 +69,39 @@ enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
 layout_mode = 2
 enemy_name = "Chefe"
 enemy_scene = "res://Scenes/Game/game.tscn"
-enemy_sprite = "res://Assets/Images/Enemies/Zelador.png"
+enemy_sprite = "res://Assets/Images/Enemies/Chefe.png"
 
 [node name="separator2" type="Control" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 
-[node name="Menu" parent="." instance=ExtResource("6_76ppw")]
-layout_mode = 1
+[node name="separator3" type="Control" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
 
-[node name="BlackBackground" parent="." instance=ExtResource("4_y1mqp")]
-modulate = Color(0, 0, 0, 0)
-layout_mode = 1
+[node name="separator5" type="Control" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="EnemysContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 204
+
+[node name="LevelSelect" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "Faxineiro"
+enemy_scene = "res://Scenes/Game/game.tscn"
+enemy_sprite = "res://Assets/Images/Enemies/Chefe.png"
+
+[node name="LevelSelect2" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "Secretaria"
+enemy_scene = "res://Scenes/Game/game.tscn"
+enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
+
+[node name="LevelSelect3" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "Chefe"
+enemy_scene = "res://Scenes/Game/game.tscn"
+enemy_sprite = "res://Assets/Images/Enemies/Zelador.png"
+
+[node name="Instantiator" type="Node2D" parent="."]
+script = ExtResource("6_vkje1")
+metadata/_custom_type_script = "uid://du2i55nuxrvyl"
