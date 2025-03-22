@@ -105,6 +105,5 @@ autoplay = "default"
 frame_progress = 0.571892
 
 [node name="AnimatedSprite2D4" parent="." index="7"]
-position = Vector2(186.218, 450.202)
 scale = Vector2(1.85539, 1.27293)
 frame_progress = 0.161318

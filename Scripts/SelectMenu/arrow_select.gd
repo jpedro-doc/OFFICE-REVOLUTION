@@ -7,6 +7,9 @@ var limit_up: int = 0
 var side:bool = false # false = left, true = right
 var current_limit: int = 0
 var space_pressed: bool = false
+var max_vida: int = 3
+var vida_atual: int
+
 
 @onready var enemys_container: VBoxContainer = $"../../EnemysContainer"
 @onready var appear_timer: Timer = $AppearTimer
@@ -15,6 +18,8 @@ var space_pressed: bool = false
 
 
 func _ready() -> void:
+
+	vida_atual = max_vida
 	appear_timer.wait_time = 0.1
 	dissapear_timer.wait_time = 0.1
 	limit_down = enemys_container.get_child_count() - 1  
@@ -22,6 +27,17 @@ func _ready() -> void:
 	move_distance_x = h_box_container.get("theme_override_constants/separation") * 4
 	
 	dissapear_timer.timeout.connect(blink)
+
+func perder_vida():
+
+	vida_atual -= 1
+	print("Vida restante: ", vida_atual)
+	if vida_atual <= 0:
+		game_over()
+
+func game_over():
+	print("Game Over!")
+	get_tree().reload_current_scene()
 
 func _process(delta: float) -> void:
 	if space_pressed:
@@ -52,6 +68,11 @@ func _process(delta: float) -> void:
 		Globals.enemy_chosen = enemy.enemy_name
 		get_tree().root.get_node("SelectMenu/BlackBackground").fade_in(enemy.enemy_scene)
 	
+	if position.y > get_viewport_rect().size.y:
+		get_parent().perder_vida() 
+		queue_free()  
+		
+
 func blink() -> void:
 	self.visible = false
 	appear_timer.start()
