@@ -122,6 +122,25 @@ animations = [{
 "speed": 7.0
 }]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_go03x"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ftefy"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_txnut"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ped3l"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_id0c5"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_01440"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6mjo2"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ktfp2"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o6i6i"]
+
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_emmpc"]
 animations = [{
 "frames": [{
@@ -160,6 +179,22 @@ animations = [{
 "speed": 5.0
 }]
 
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_56h8q"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1d73e"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2vin6"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i4pn1"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n2dj2"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wo5hx"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2ud6m"]
+
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_2oobv"]
 animations = [{
 "frames": [{
@@ -188,6 +223,26 @@ animations = [{
 "name": &"new_animation",
 "speed": 5.0
 }]
+
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n16ks"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jlxid"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6iq3j"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8h443"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iq6o2"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lp0va"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c4x00"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ay2lt"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mnu6k"]
+
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qbnh2"]
 animations = [{
@@ -240,6 +295,7 @@ point_count = 2
 position = Vector2(794, -49)
 scale = Vector2(5.26316, 3.94939)
 sprite_frames = SubResource("SpriteFrames_8h443")
+autoplay = "default"
 frame_progress = 0.320674
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]

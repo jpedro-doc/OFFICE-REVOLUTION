@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://chsic8ug5uype"]
 
 [ext_resource type="Texture2D" uid="uid://dnjgjl57bhm4p" path="res://Assets/Images/arrows.png" id="2_oboe8"]
-[ext_resource type="Script" path="res://Scenes/Game/arrows.gd" id="2_rlfl2"]
+[ext_resource type="Script" uid="uid://di81a1a6kxyh3" path="res://Scenes/Game/arrows.gd" id="2_rlfl2"]
 
 [sub_resource type="GDScript" id="GDScript_cfb27"]
 script/source = "extends Node2D

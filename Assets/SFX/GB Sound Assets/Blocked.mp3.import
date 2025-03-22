@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Blocked.mp3-b2318c4e3077fdf5213a81e965bd7a19.
 [params]
 
 loop=false
-loop_offset=0
-bpm=0
+loop_offset=0.0
+bpm=0.0
 beat_count=0
 bar_beats=4
