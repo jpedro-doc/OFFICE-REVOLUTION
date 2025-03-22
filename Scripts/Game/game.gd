@@ -2,12 +2,9 @@ extends Node2D
 
 @export var difference: float
 @export var max_vida: int = 3
-@export var file = "res://notes_chart.json"
-var json_as_text = FileAccess.get_file_as_string(file)
-var json_as_dict = JSON.parse_string(json_as_text)
+
 var vida_atual: int
 
-vida_atual = max_vida
 
 const ARROW_LEFT = preload("res://Scenes/Game/Arrows/arrow_left.tscn")
 const ARROW_DOWN = preload("res://Scenes/Game/Arrows/arrow_down.tscn")
@@ -32,20 +29,26 @@ var arrow = {
 		#hold = time.time
 
 func _ready() -> void:
-	
 	Music.main_menu_music.stop()
+	var file: String
+	if Globals.enemy_chosen == "janitor": 
+		Music.janitor_song.play()
+		file = Globals.NOTES_CHART_JANITOR
 	
-	if Globals.enemy_chosen == "janitor": Music.janitor_song.play()
-	if Globals.enemy_chosen == "secretary": Music.secretary_song.play()
-animações
-
-
-	if Globals.enemy_chosen == "boss": Music.boss_song.play()
+	if Globals.enemy_chosen == "secretary": 
+		Music.secretary_song.play()
+		file = Globals.NOTES_CHART_SECRETARY
+		
+	if Globals.enemy_chosen == "boss": 
+		Music.boss_song.play()
+		file = Globals.NOTES_CHART_BOSS
 	
- main
+	var json_as_text = FileAccess.get_file_as_string(file)
+	var json_as_dict = JSON.parse_string(json_as_text)
+	
 	var previous_arrow: String
 	var previous_time: float = 10
-	
+
 	for time in json_as_dict:
 		if note_arrows[time.note] == previous_arrow or abs(previous_time - time.time) < difference:
 			continue

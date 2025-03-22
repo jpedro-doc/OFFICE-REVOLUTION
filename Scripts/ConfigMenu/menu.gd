@@ -3,7 +3,6 @@ extends Control
 @onready var button: Button = $MarginContainer/VBoxContainer/MarginContainer/Button
 
 func _ready() -> void:
-	print(get_parent())
 	if get_parent().name == "Game": button.visible = true
 	else: button.visible = false
 	get_tree().paused = false

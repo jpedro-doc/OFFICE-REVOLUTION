@@ -7,5 +7,6 @@ func _ready() -> void:
 	var config = preload("res://Scenes/ConfigMenu/ConfigMenu.tscn").instantiate()
 	get_parent().add_child.call_deferred(config)
 
+
 	
 	
