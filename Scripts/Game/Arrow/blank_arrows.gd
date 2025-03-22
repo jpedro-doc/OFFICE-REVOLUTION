@@ -9,6 +9,8 @@ var score = 0
 
 var arrow_pressed_coords = 2
 
+@onready var game = get_parent()
+
 func _ready() -> void:
 	pass
 	
@@ -24,28 +26,32 @@ func _process(delta: float) -> void:
 			$left/Area2D.get_overlapping_areas().filter(get_rid)
 		else:
 			score -= 1
-	
+			game.perder_vida()
+			
 	if Input.is_action_just_pressed("down"):
 		down.frame_coords.y = arrow_pressed_coords
 		if $down/Area2D.has_overlapping_areas():
 			$down/Area2D.get_overlapping_areas().filter(get_rid)
 		else:
 			score -= 1
-	
+			game.perder_vida()
+			
 	if Input.is_action_just_pressed("up"):
 		up.frame_coords.y = arrow_pressed_coords
 		if $up/Area2D.has_overlapping_areas():
 			$up/Area2D.get_overlapping_areas().filter(get_rid)
 		else:
 			score -= 1
-		
+			game.perder_vida()
+			
 	if Input.is_action_just_pressed("right"):
 		right.frame_coords.y = arrow_pressed_coords
 		if $right/Area2D.has_overlapping_areas():
 			$right/Area2D.get_overlapping_areas().filter(get_rid)
 		else:
 			score -= 1
-		
+			game.perder_vida()
+			
 
 func get_rid(object:Node2D):
 	object.get_parent().queue_free()
