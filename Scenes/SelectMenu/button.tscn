@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bj027hq0j0yar"]
+
+[ext_resource type="Theme" uid="uid://d17hlibhev0hm" path="res://Assets/Themes/exit_button.tres" id="1_os583"]
+[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="2_7w1an"]
+[ext_resource type="Script" uid="uid://b8270ib78moai" path="res://Scripts/SelectMenu/file_button.gd" id="3_7w1an"]
+
+[node name="Button" type="Button"]
+size_flags_vertical = 4
+theme = ExtResource("1_os583")
+theme_override_fonts/font = ExtResource("2_7w1an")
+theme_override_font_sizes/font_size = 24
+text = "Select Dancer"
+script = ExtResource("3_7w1an")
+
+[node name="FileDialog" type="FileDialog" parent="."]
+auto_translate_mode = 1
+title = "Open a File"
+initial_position = 1
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
