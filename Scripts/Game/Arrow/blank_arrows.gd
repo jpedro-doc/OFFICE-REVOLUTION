@@ -10,14 +10,12 @@ var hit_score:int = 50
 var miss_score:int = 25
 var rainbow_mult:int = 5
 var consecutive_hits: int = 0
+var rave: bool = false
 
 var arrow_pressed_coords:int = 2
 
 @onready var game = get_parent()
 
-func _ready() -> void:
-	pass
-	
 func _process(delta: float) -> void:
 	left.frame_coords.y = 0
 	down.frame_coords.y = 0
@@ -33,6 +31,7 @@ func _process(delta: float) -> void:
 			consecutive_hits = 0
 			score -= miss_score
 			game.perder_vida()
+			rave = false
 
 	if Input.is_action_just_pressed("down"):
 		down.frame_coords.y = arrow_pressed_coords
@@ -43,7 +42,8 @@ func _process(delta: float) -> void:
 			consecutive_hits = 0
 			score -= miss_score
 			game.perder_vida()
-	
+			rave = false
+
 
 	if Input.is_action_just_pressed("up"):
 		up.frame_coords.y = arrow_pressed_coords
@@ -54,6 +54,7 @@ func _process(delta: float) -> void:
 			consecutive_hits = 0
 			score -= miss_score
 			game.perder_vida()
+			rave = false
 		
 	if Input.is_action_just_pressed("right"):
 		right.frame_coords.y = arrow_pressed_coords
@@ -64,19 +65,27 @@ func _process(delta: float) -> void:
 			consecutive_hits = 0
 			score -= miss_score
 			game.perder_vida()
+			rave = false
 		
 	if consecutive_hits >= 30:
-		prepare_rave(get_parent().get_child(-1))
+		game.prepare_rave()
+		consecutive_hits = 0
+		
+	if rave:
+		game.start_rave()
+		game.rainbow.visible = true
+	else:
+		game.rainbow.visible = false
 
 func get_rid(object:Node2D):
-	score += hit_score
-	object.get_parent().queue_free()
+	score += hit_score + (int(rave) * rainbow_mult)
+	var arrow = object.get_parent()
+	if arrow.sprite_2d.use_parent_material == false: rave = true
+	arrow.queue_free()
 
 func _set_score_label(new_value:int):
 	score = new_value
 	$"../Label".text = "score: " + str(new_value)
 
-func prepare_rave(arrow: Node2D):
-	arrow.sprite_2d.use_parent_material = false
 	
 	

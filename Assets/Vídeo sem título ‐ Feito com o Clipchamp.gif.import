@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bsp50nq70gkar"
+path="res://.godot/imported/Vídeo sem título ‐ Feito com o Clipchamp.gif-45e299bb2ee7d57592c7b8a1f1523c7a.tres"
+
+[deps]
+
+source_file="res://Assets/Vídeo sem título ‐ Feito com o Clipchamp.gif"
+dest_files=["res://.godot/imported/Vídeo sem título ‐ Feito com o Clipchamp.gif-45e299bb2ee7d57592c7b8a1f1523c7a.tres"]
+
+[params]
+
+frames_per_second=30
