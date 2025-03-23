@@ -240,6 +240,7 @@ point_count = 2
 position = Vector2(794, -49)
 scale = Vector2(5.26316, 3.94939)
 sprite_frames = SubResource("SpriteFrames_8h443")
+autoplay = "default"
 frame_progress = 0.320674
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]

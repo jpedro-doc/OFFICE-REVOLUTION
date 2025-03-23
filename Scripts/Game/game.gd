@@ -1,14 +1,10 @@
 extends Node2D
 
-@onready var timer: Timer = $Timer
 @export var difference: float
+@export var max_vida: int = 3
 
-var max_vida: int = 3
 var vida_atual: int
 
-@export var file = "res://notes_chart.json"
-var json_as_text = FileAccess.get_file_as_string(file)
-var json_as_dict = JSON.parse_string(json_as_text)
 
 const ARROW_LEFT = preload("res://Scenes/Game/Arrows/arrow_left.tscn")
 const ARROW_DOWN = preload("res://Scenes/Game/Arrows/arrow_down.tscn")
@@ -34,13 +30,33 @@ var arrow = {
 
 func _ready() -> void:
 	Music.main_menu_music.stop()
+
 	vida_atual = max_vida
 	if Globals.enemy_chosen == "janitor": Music.janitor_song.play()
 	if Globals.enemy_chosen == "secretary": Music.secretary_song.play()
+	print(Globals.enemy_chosen)
+	var file: String
+	if Globals.enemy_chosen == "janitor": 
+		Music.janitor_song.play()
+		file = Globals.NOTES_CHART_JANITOR
+	
+	if Globals.enemy_chosen == "secretary": 
+		Music.secretary_song.play()
+		file = Globals.NOTES_CHART_SECRETARY
+		
+	if Globals.enemy_chosen == "boss": 
+		Music.boss_song.play()
+		file = Globals.NOTES_CHART_BOSS
+	print(file)
+	var json_as_text = FileAccess.get_file_as_string(file)
+	var json_as_dict = JSON.parse_string(json_as_text)
+	if json_as_dict == null:
+		print("Erro ao carregar JSON: Arquivo mal formatado ou vazio.")
+		return
 	
 	var previous_arrow: String
 	var previous_time: float = 10
-	
+
 	for time in json_as_dict:
 		if note_arrows[time.note] == previous_arrow or abs(previous_time - time.time) < difference:
 			continue
@@ -49,15 +65,11 @@ func _ready() -> void:
 		previous_time = time.time
 
 func perder_vida():
-
 	vida_atual -= 1
-	print("Vida restante: ", vida_atual)
-	if vida_atual <= 0:
-		game_over()
+	
+	
 
-func game_over():
-	print("Game Over!")
-	get_tree().reload_current_scene()
+
 
 func spawn_arrow(note: String):
 	var arrow_direction = note_arrows[note]

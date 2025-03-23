@@ -1,9 +1,8 @@
-extends ColorRect
+extends Sprite2D
 
 var value: float = 0
 
 func _ready() -> void:
-	set_anchors_preset(Control.PRESET_FULL_RECT)
 	modulate.r = 0
 	modulate.g = 0
 	modulate.b = 0
@@ -19,6 +18,7 @@ func fade_in(scene: String):
 	modulate.a = 0
 	value = 1.5
 	await get_tree().create_timer(1.0).timeout
+	if not Music.main_menu_music.playing: Music.main_menu_music.play()
 	get_tree().change_scene_to_file(scene)
 
 func fade_out():

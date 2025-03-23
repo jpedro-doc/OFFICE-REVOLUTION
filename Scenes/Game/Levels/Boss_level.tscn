@@ -1,0 +1,63 @@
+[gd_scene load_steps=13 format=3 uid="uid://cl5cvam3g1vgy"]
+
+[ext_resource type="PackedScene" uid="uid://2o4naec7ilhi" path="res://Scenes/Game/Levels/game.tscn" id="1_6vdlp"]
+[ext_resource type="Texture2D" uid="uid://bkrreu0qir0cm" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (5).png" id="2_w42kb"]
+[ext_resource type="Texture2D" uid="uid://b7xjguohxdayx" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (6).png" id="3_k5tu1"]
+[ext_resource type="Texture2D" uid="uid://mbyajs3und8r" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (7).png" id="4_fkqmk"]
+[ext_resource type="Texture2D" uid="uid://bp051u668k78a" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop (8).png" id="5_a5mcm"]
+[ext_resource type="Texture2D" uid="uid://vb78ewoubdfj" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__1_-removebg-preview.png" id="6_5jk64"]
+[ext_resource type="Texture2D" uid="uid://b5ykp52f1k8xu" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__2_-removebg-preview.png" id="7_xrwfe"]
+[ext_resource type="Texture2D" uid="uid://dkcrtatxhda3c" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__4_-removebg-preview.png" id="8_vcbg1"]
+[ext_resource type="Texture2D" uid="uid://reghe61ad6fg" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__9_-removebg-preview.png" id="9_2ux7o"]
+[ext_resource type="Texture2D" uid="uid://c7yq3dgpdfk8y" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__10_-removebg-preview.png" id="10_y0nnt"]
+[ext_resource type="Texture2D" uid="uid://dg03je85a2aq3" path="res://Imagens Personagens/boss/Captura_de_tela_2025-03-20_211246-removebg-preview-ezgif.com-crop__11_-removebg-preview.png" id="11_usak8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gbjkh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_w42kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k5tu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fkqmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_a5mcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5jk64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_xrwfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_vcbg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2ux7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y0nnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_usak8")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="Game" instance=ExtResource("1_6vdlp")]
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." index="5"]
+position = Vector2(980.323, 460.897)
+scale = Vector2(2.76096, 1.48687)
+sprite_frames = SubResource("SpriteFrames_gbjkh")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame = 4
+frame_progress = 0.699427
+flip_h = true
