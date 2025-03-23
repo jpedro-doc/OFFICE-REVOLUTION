@@ -42,6 +42,12 @@ func _ready() -> void:
 	if Globals.enemy_chosen == "boss": 
 		Music.boss_song.play()
 		file = Globals.NOTES_CHART_BOSS
+		
+	if Globals.enemy_chosen == "custom":
+		Music.custom_song.play()
+		file = Globals.NOTES_CHART
+		$AnimatedSprite2D.sprite_frames = Globals.sprite_frames_path
+		$AnimatedSprite2D.play()
 	
 	var json_as_text = FileAccess.get_file_as_string(file)
 	var json_as_dict = JSON.parse_string(json_as_text)
@@ -50,6 +56,7 @@ func _ready() -> void:
 	var previous_time: float = 10
 
 	for time in json_as_dict:
+		if time.note == "N/A": continue
 		if note_arrows[time.note] == previous_arrow or abs(previous_time - time.time) < difference:
 			continue
 		get_tree().create_timer(time.time).timeout.connect(spawn_arrow.bind(time.note))

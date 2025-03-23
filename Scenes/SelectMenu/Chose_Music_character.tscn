@@ -1,0 +1,89 @@
+[gd_scene load_steps=9 format=3 uid="uid://e3o1paguai20"]
+
+[ext_resource type="Texture2D" uid="uid://d2o41blt2qpip" path="res://Assets/Images/Fundo.webp" id="1_gu0pw"]
+[ext_resource type="Script" uid="uid://cl3jr61w5rfy4" path="res://Scripts/SelectMenu/chose_music_character.gd" id="1_ou3ge"]
+[ext_resource type="Theme" uid="uid://d17hlibhev0hm" path="res://Assets/Themes/exit_button.tres" id="2_eyt7a"]
+[ext_resource type="Shader" uid="uid://uqdwh2v70uiq" path="res://Assets/Themes/text.gdshader" id="2_gq26n"]
+[ext_resource type="FontFile" uid="uid://ihhihsh5gmhr" path="res://Assets/Fonts/BigBlueTerm437NerdFont-Regular.ttf" id="3_gq26n"]
+[ext_resource type="PackedScene" uid="uid://bj027hq0j0yar" path="res://Scenes/SelectMenu/button.tscn" id="6_wyex5"]
+[ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="7_cjvfk"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ou3ge"]
+shader = ExtResource("2_gq26n")
+shader_parameter/wave_amplitude = 20.0
+shader_parameter/wave_frequency = -115.0
+shader_parameter/movement_speed = 2.0
+shader_parameter/movement_amplitude = 5.0
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ou3ge")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_gu0pw")
+expand_mode = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 200
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+material = SubResource("ShaderMaterial_ou3ge")
+layout_mode = 2
+theme_override_constants/outline_size = 5
+theme_override_constants/shadow_outline_size = 15
+theme_override_fonts/font = ExtResource("3_gq26n")
+theme_override_font_sizes/font_size = 48
+text = "Make Your Level"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 64
+alignment = 1
+
+[node name="Button" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("6_wyex5")]
+layout_mode = 2
+
+[node name="Button2" parent="MarginContainer/VBoxContainer/HBoxContainer" instance=ExtResource("6_wyex5")]
+layout_mode = 2
+text = "Select Song"
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("2_eyt7a")
+theme_override_fonts/font = ExtResource("3_gq26n")
+theme_override_font_sizes/font_size = 24
+text = "Confirmn"
+
+[node name="Instantiator" type="Node2D" parent="."]
+script = ExtResource("7_cjvfk")
+metadata/_custom_type_script = "uid://du2i55nuxrvyl"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="_on_button_2_pressed"]
