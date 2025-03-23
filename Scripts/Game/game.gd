@@ -3,8 +3,11 @@ extends Node2D
 @export var difference: float
 @export var max_vida: int = 3
 
-var vida_atual: int
+@onready var vida: Label = $vida
+@onready var quirrel: Node2D = $Quirrel
+@onready var rainbow: Sprite2D = $rainbow
 
+var vida_atual: int  : set = _set_vida
 
 const ARROW_LEFT = preload("res://Scenes/Game/Arrows/arrow_left.tscn")
 const ARROW_DOWN = preload("res://Scenes/Game/Arrows/arrow_down.tscn")
@@ -29,6 +32,7 @@ var arrow = {
 		#hold = time.time
 
 func _ready() -> void:
+	vida.text = "Vida: " + str(max_vida)
 	Music.main_menu_music.stop()
 	var file: String
 	if Globals.enemy_chosen == "janitor": 
@@ -65,8 +69,13 @@ func _ready() -> void:
 
 func perder_vida():
 		vida_atual -= 1
+		Sfx.miss.play()
 		if vida_atual <= 0:
 			game_over()
+
+func ganhar_vida():
+	if vida_atual < max_vida:
+		vida_atual += 1
 
 func game_over():
 	get_tree().reload_current_scene()
@@ -74,7 +83,20 @@ func game_over():
 func spawn_arrow(note: String):
 	var arrow_direction = note_arrows[note]
 	var arrow_colored = arrow[arrow_direction].instantiate()
-	add_child(arrow_colored)
+	quirrel.add_child(arrow_colored)
 
+func _set_vida(new_value: int):
+	vida.text = "Vida: " + str(new_value)
+
+func prepare_rave():
+	if quirrel.get_child(-1) is Node2D:
+		quirrel.get_child(-1).sprite_2d.use_parent_material = false
+	
+func start_rave():
+	quirrel.get_children().filter(func(arrows:Node2D):
+		arrows.sprite_2d.use_parent_material = false
+		)
+
+	
 	
 	

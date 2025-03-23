@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://d3gk6ffksva30"]
+[gd_scene load_steps=5 format=3 uid="uid://d3gk6ffksva30"]
 
 [ext_resource type="Script" uid="uid://cctsl73ds7uaw" path="res://Globals/sfx.gd" id="1_bx7bu"]
 [ext_resource type="AudioStream" uid="uid://cq5sbm8blkpri" path="res://Assets/SFX/GB Sound Assets/Unlock.mp3" id="1_m5n21"]
 [ext_resource type="AudioStream" uid="uid://w88184ytcb7m" path="res://Assets/SFX/GB Sound Assets/Menu Back.mp3" id="3_vvst8"]
+[ext_resource type="AudioStream" uid="uid://bkdew1gtaeutn" path="res://Assets/SFX/GB Sound Assets/Drop.mp3" id="4_bwexp"]
 
 [node name="Sfx" type="Node2D"]
 script = ExtResource("1_bx7bu")
@@ -16,5 +17,11 @@ bus = &"SFX"
 [node name="ExitLevel" type="AudioStreamPlayer2D" parent="."]
 process_mode = 3
 stream = ExtResource("3_vvst8")
+volume_db = 24.0
+bus = &"SFX"
+
+[node name="Miss" type="AudioStreamPlayer2D" parent="."]
+process_mode = 3
+stream = ExtResource("4_bwexp")
 volume_db = 24.0
 bus = &"SFX"
