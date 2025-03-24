@@ -1,1086 +1,1538 @@
 [
     {
-        "time": 0.07,
-        "note": "C"
+        "time": 0.26,
+        "note": "G"
     },
     {
-        "time": 1.74,
-        "note": "C#"
-    },
-    {
-        "time": 5.09,
-        "note": "C#"
-    },
-    {
-        "time": 5.22,
+        "time": 0.72,
         "note": "A"
     },
     {
-        "time": 5.48,
-        "note": "C#"
-    },
-    {
-        "time": 5.74,
+        "time": 0.84,
         "note": "A"
     },
     {
-        "time": 5.99,
-        "note": "C#"
+        "time": 1.39,
+        "note": "G"
     },
     {
-        "time": 6.25,
+        "time": 1.53,
         "note": "C"
     },
     {
-        "time": 6.5,
-        "note": "F#"
+        "time": 1.67,
+        "note": "G"
     },
     {
-        "time": 6.71,
+        "time": 1.81,
         "note": "C"
     },
     {
-        "time": 6.97,
+        "time": 1.95,
+        "note": "A"
+    },
+    {
+        "time": 2.25,
+        "note": "C"
+    },
+    {
+        "time": 2.51,
+        "note": "G"
+    },
+    {
+        "time": 2.79,
+        "note": "F"
+    },
+    {
+        "time": 2.93,
         "note": "C#"
     },
     {
-        "time": 7.22,
+        "time": 3.07,
+        "note": "A"
+    },
+    {
+        "time": 3.37,
         "note": "D"
     },
     {
-        "time": 7.48,
-        "note": "A"
-    },
-    {
-        "time": 7.73,
-        "note": "C#"
-    },
-    {
-        "time": 7.96,
-        "note": "A#"
-    },
-    {
-        "time": 8.17,
-        "note": "G"
-    },
-    {
-        "time": 8.38,
-        "note": "F#"
-    },
-    {
-        "time": 8.43,
-        "note": "F#"
-    },
-    {
-        "time": 8.85,
-        "note": "G"
-    },
-    {
-        "time": 9.03,
-        "note": "G"
-    },
-    {
-        "time": 9.15,
+        "time": 3.51,
         "note": "E"
     },
     {
-        "time": 9.64,
+        "time": 3.62,
+        "note": "G"
+    },
+    {
+        "time": 3.78,
+        "note": "C"
+    },
+    {
+        "time": 3.9,
+        "note": "G"
+    },
+    {
+        "time": 4.18,
         "note": "A"
     },
     {
-        "time": 9.89,
+        "time": 4.74,
+        "note": "G"
+    },
+    {
+        "time": 5.2,
+        "note": "F"
+    },
+    {
+        "time": 5.32,
+        "note": "A"
+    },
+    {
+        "time": 5.87,
+        "note": "G"
+    },
+    {
+        "time": 6.04,
+        "note": "C"
+    },
+    {
+        "time": 6.15,
+        "note": "G"
+    },
+    {
+        "time": 6.32,
+        "note": "C"
+    },
+    {
+        "time": 6.43,
+        "note": "A"
+    },
+    {
+        "time": 6.73,
+        "note": "C"
+    },
+    {
+        "time": 6.99,
+        "note": "G"
+    },
+    {
+        "time": 7.29,
+        "note": "F"
+    },
+    {
+        "time": 7.41,
         "note": "C#"
     },
     {
-        "time": 10.12,
-        "note": "C#"
+        "time": 7.55,
+        "note": "A"
     },
     {
-        "time": 10.38,
+        "time": 7.85,
+        "note": "D"
+    },
+    {
+        "time": 8.1,
+        "note": "C"
+    },
+    {
+        "time": 8.41,
+        "note": "G"
+    },
+    {
+        "time": 8.68,
+        "note": "C"
+    },
+    {
+        "time": 9.8,
+        "note": "D"
+    },
+    {
+        "time": 10.1,
+        "note": "D"
+    },
+    {
+        "time": 10.36,
+        "note": "G"
+    },
+    {
+        "time": 10.63,
+        "note": "G"
+    },
+    {
+        "time": 10.91,
+        "note": "C"
+    },
+    {
+        "time": 11.47,
+        "note": "G"
+    },
+    {
+        "time": 12.05,
+        "note": "A"
+    },
+    {
+        "time": 12.33,
+        "note": "A"
+    },
+    {
+        "time": 12.59,
+        "note": "C"
+    },
+    {
+        "time": 12.75,
+        "note": "C"
+    },
+    {
+        "time": 12.89,
+        "note": "G"
+    },
+    {
+        "time": 13.17,
+        "note": "A#"
+    },
+    {
+        "time": 13.72,
+        "note": "G"
+    },
+    {
+        "time": 14.02,
+        "note": "D#"
+    },
+    {
+        "time": 14.28,
+        "note": "D"
+    },
+    {
+        "time": 14.58,
+        "note": "G"
+    },
+    {
+        "time": 14.86,
+        "note": "F"
+    },
+    {
+        "time": 15.14,
+        "note": "G"
+    },
+    {
+        "time": 15.42,
         "note": "E"
     },
     {
-        "time": 10.61,
-        "note": "A#"
-    },
-    {
-        "time": 10.87,
-        "note": "C"
-    },
-    {
-        "time": 11.1,
-        "note": "A#"
-    },
-    {
-        "time": 11.35,
+        "time": 15.72,
         "note": "F"
     },
     {
-        "time": 11.59,
-        "note": "A#"
-    },
-    {
-        "time": 11.82,
-        "note": "A#"
-    },
-    {
-        "time": 12.07,
-        "note": "C"
-    },
-    {
-        "time": 12.31,
-        "note": "A#"
-    },
-    {
-        "time": 12.54,
-        "note": "A"
-    },
-    {
-        "time": 12.79,
+        "time": 15.98,
         "note": "G"
     },
     {
-        "time": 13.03,
-        "note": "G"
-    },
-    {
-        "time": 13.28,
-        "note": "F"
-    },
-    {
-        "time": 13.51,
-        "note": "C#"
-    },
-    {
-        "time": 13.75,
-        "note": "D"
-    },
-    {
-        "time": 13.98,
-        "note": "D"
-    },
-    {
-        "time": 14.21,
-        "note": "F"
-    },
-    {
-        "time": 14.47,
+        "time": 16.25,
         "note": "A#"
     },
     {
-        "time": 14.7,
-        "note": "A#"
-    },
-    {
-        "time": 14.95,
-        "note": "C"
-    },
-    {
-        "time": 15.21,
-        "note": "C"
-    },
-    {
-        "time": 15.44,
-        "note": "G"
-    },
-    {
-        "time": 15.7,
-        "note": "C"
-    },
-    {
-        "time": 15.91,
-        "note": "C"
-    },
-    {
-        "time": 16.11,
-        "note": "A"
-    },
-    {
-        "time": 16.42,
-        "note": "C"
-    },
-    {
-        "time": 16.6,
-        "note": "G"
+        "time": 16.53,
+        "note": "E"
     },
     {
         "time": 16.83,
-        "note": "F#"
+        "note": "G"
     },
     {
         "time": 17.09,
         "note": "G"
     },
     {
-        "time": 17.32,
-        "note": "D#"
-    },
-    {
-        "time": 17.79,
-        "note": "D"
-    },
-    {
-        "time": 18.04,
-        "note": "F#"
-    },
-    {
-        "time": 18.3,
-        "note": "F#"
-    },
-    {
-        "time": 18.53,
-        "note": "F"
-    },
-    {
-        "time": 18.76,
-        "note": "F"
-    },
-    {
-        "time": 19.25,
-        "note": "F#"
-    },
-    {
-        "time": 19.46,
-        "note": "E"
-    },
-    {
-        "time": 19.69,
-        "note": "E"
-    },
-    {
-        "time": 19.95,
-        "note": "F#"
-    },
-    {
-        "time": 20.18,
-        "note": "A"
-    },
-    {
-        "time": 20.64,
-        "note": "F#"
-    },
-    {
-        "time": 20.87,
-        "note": "D"
-    },
-    {
-        "time": 21.13,
-        "note": "F#"
-    },
-    {
-        "time": 21.36,
-        "note": "F#"
-    },
-    {
-        "time": 21.59,
-        "note": "F#"
-    },
-    {
-        "time": 21.83,
+        "time": 17.25,
         "note": "C"
     },
     {
-        "time": 22.08,
+        "time": 17.65,
+        "note": "A#"
+    },
+    {
+        "time": 17.95,
+        "note": "F"
+    },
+    {
+        "time": 18.16,
         "note": "E"
     },
     {
-        "time": 22.55,
+        "time": 18.51,
+        "note": "C#"
+    },
+    {
+        "time": 18.65,
+        "note": "G"
+    },
+    {
+        "time": 18.78,
+        "note": "D"
+    },
+    {
+        "time": 19.06,
+        "note": "D"
+    },
+    {
+        "time": 19.34,
+        "note": "G"
+    },
+    {
+        "time": 19.62,
+        "note": "G"
+    },
+    {
+        "time": 20.46,
+        "note": "G"
+    },
+    {
+        "time": 21.01,
+        "note": "A"
+    },
+    {
+        "time": 21.32,
+        "note": "A"
+    },
+    {
+        "time": 21.57,
+        "note": "C"
+    },
+    {
+        "time": 21.73,
+        "note": "C"
+    },
+    {
+        "time": 21.87,
         "note": "F"
     },
     {
-        "time": 22.78,
-        "note": "F"
+        "time": 22.01,
+        "note": "C"
     },
     {
-        "time": 23.03,
+        "time": 22.15,
+        "note": "A"
+    },
+    {
+        "time": 22.43,
+        "note": "D"
+    },
+    {
+        "time": 22.69,
+        "note": "G"
+    },
+    {
+        "time": 22.99,
         "note": "D#"
     },
     {
         "time": 23.27,
-        "note": "F#"
+        "note": "D"
     },
     {
-        "time": 23.52,
-        "note": "E"
+        "time": 23.57,
+        "note": "G"
     },
     {
-        "time": 23.75,
-        "note": "E"
+        "time": 23.82,
+        "note": "G"
     },
     {
-        "time": 23.99,
-        "note": "E"
+        "time": 24.1,
+        "note": "G"
     },
     {
-        "time": 24.47,
-        "note": "F#"
+        "time": 24.38,
+        "note": "D#"
     },
     {
         "time": 24.68,
-        "note": "C"
+        "note": "F"
     },
     {
         "time": 24.94,
-        "note": "D"
-    },
-    {
-        "time": 25.4,
-        "note": "A#"
-    },
-    {
-        "time": 25.63,
         "note": "G"
     },
     {
-        "time": 25.89,
+        "time": 25.24,
+        "note": "A#"
+    },
+    {
+        "time": 25.52,
         "note": "F"
     },
     {
-        "time": 26.12,
-        "note": "C"
-    },
-    {
-        "time": 26.35,
-        "note": "F"
-    },
-    {
-        "time": 26.82,
+        "time": 26.08,
         "note": "D"
     },
     {
-        "time": 27.05,
-        "note": "C"
-    },
-    {
-        "time": 27.28,
-        "note": "E"
-    },
-    {
-        "time": 27.52,
+        "time": 27.77,
         "note": "A"
     },
     {
-        "time": 27.75,
+        "time": 28.61,
+        "note": "F"
+    },
+    {
+        "time": 28.89,
         "note": "F#"
     },
     {
-        "time": 27.98,
-        "note": "E"
+        "time": 29.16,
+        "note": "F#"
     },
     {
-        "time": 28.19,
-        "note": "C"
-    },
-    {
-        "time": 28.68,
-        "note": "A#"
-    },
-    {
-        "time": 28.91,
-        "note": "E"
-    },
-    {
-        "time": 29.12,
-        "note": "A#"
-    },
-    {
-        "time": 29.35,
-        "note": "F"
-    },
-    {
-        "time": 29.61,
-        "note": "F"
-    },
-    {
-        "time": 29.84,
-        "note": "D"
-    },
-    {
-        "time": 30.07,
-        "note": "D#"
-    },
-    {
-        "time": 30.3,
-        "note": "F"
-    },
-    {
-        "time": 30.53,
-        "note": "C"
-    },
-    {
-        "time": 30.79,
-        "note": "A#"
-    },
-    {
-        "time": 31.0,
-        "note": "D"
-    },
-    {
-        "time": 31.23,
-        "note": "A"
-    },
-    {
-        "time": 31.46,
-        "note": "A#"
-    },
-    {
-        "time": 31.72,
-        "note": "A#"
-    },
-    {
-        "time": 31.93,
+        "time": 29.42,
         "note": "G"
     },
     {
-        "time": 32.39,
-        "note": "F#"
+        "time": 29.86,
+        "note": "A"
     },
     {
-        "time": 32.62,
-        "note": "A#"
+        "time": 30.0,
+        "note": "D"
     },
     {
-        "time": 32.83,
-        "note": "G#"
+        "time": 30.56,
+        "note": "G"
     },
     {
-        "time": 33.09,
-        "note": "F#"
-    },
-    {
-        "time": 33.46,
-        "note": "F#"
-    },
-    {
-        "time": 33.79,
-        "note": "A#"
-    },
-    {
-        "time": 34.02,
-        "note": "F"
-    },
-    {
-        "time": 34.27,
-        "note": "F"
-    },
-    {
-        "time": 34.5,
+        "time": 30.7,
         "note": "C"
     },
     {
-        "time": 34.71,
-        "note": "D#"
+        "time": 30.84,
+        "note": "G"
     },
     {
-        "time": 34.97,
+        "time": 30.98,
+        "note": "C"
+    },
+    {
+        "time": 31.11,
+        "note": "A"
+    },
+    {
+        "time": 31.39,
         "note": "E"
+    },
+    {
+        "time": 31.67,
+        "note": "G"
+    },
+    {
+        "time": 32.07,
+        "note": "F"
+    },
+    {
+        "time": 32.25,
+        "note": "A"
+    },
+    {
+        "time": 33.07,
+        "note": "G"
+    },
+    {
+        "time": 33.37,
+        "note": "F#"
+    },
+    {
+        "time": 33.92,
+        "note": "G"
+    },
+    {
+        "time": 34.34,
+        "note": "D"
+    },
+    {
+        "time": 34.48,
+        "note": "C#"
+    },
+    {
+        "time": 34.76,
+        "note": "C"
+    },
+    {
+        "time": 35.18,
+        "note": "C"
     },
     {
         "time": 35.32,
         "note": "G"
     },
     {
-        "time": 35.64,
+        "time": 35.46,
+        "note": "C"
+    },
+    {
+        "time": 35.6,
+        "note": "G"
+    },
+    {
+        "time": 35.87,
+        "note": "E"
+    },
+    {
+        "time": 36.15,
+        "note": "G"
+    },
+    {
+        "time": 36.46,
         "note": "F"
     },
     {
-        "time": 35.9,
-        "note": "E"
-    },
-    {
-        "time": 36.13,
-        "note": "F"
-    },
-    {
-        "time": 36.36,
-        "note": "E"
-    },
-    {
-        "time": 36.59,
-        "note": "F#"
-    },
-    {
-        "time": 36.85,
-        "note": "E"
-    },
-    {
-        "time": 37.18,
-        "note": "F#"
-    },
-    {
-        "time": 37.48,
-        "note": "A#"
-    },
-    {
-        "time": 37.73,
-        "note": "E"
-    },
-    {
-        "time": 37.99,
-        "note": "F"
-    },
-    {
-        "time": 38.22,
+        "time": 36.73,
         "note": "A"
     },
     {
-        "time": 38.43,
+        "time": 37.57,
+        "note": "G"
+    },
+    {
+        "time": 37.85,
         "note": "F#"
     },
     {
-        "time": 38.68,
-        "note": "F#"
+        "time": 38.13,
+        "note": "G#"
     },
     {
-        "time": 39.01,
-        "note": "E"
+        "time": 38.41,
+        "note": "G"
     },
     {
-        "time": 39.33,
-        "note": "F"
-    },
-    {
-        "time": 39.59,
-        "note": "F#"
-    },
-    {
-        "time": 39.82,
-        "note": "F"
-    },
-    {
-        "time": 40.26,
+        "time": 38.71,
         "note": "D"
     },
     {
-        "time": 40.52,
+        "time": 38.82,
         "note": "A"
     },
     {
-        "time": 40.75,
+        "time": 38.96,
+        "note": "D"
+    },
+    {
+        "time": 39.26,
+        "note": "G"
+    },
+    {
+        "time": 39.52,
+        "note": "G"
+    },
+    {
+        "time": 39.68,
+        "note": "C"
+    },
+    {
+        "time": 39.8,
+        "note": "G"
+    },
+    {
+        "time": 39.94,
+        "note": "C"
+    },
+    {
+        "time": 40.08,
+        "note": "G"
+    },
+    {
+        "time": 40.38,
         "note": "F"
+    },
+    {
+        "time": 40.63,
+        "note": "G"
     },
     {
         "time": 41.22,
-        "note": "A#"
-    },
-    {
-        "time": 41.45,
-        "note": "C"
-    },
-    {
-        "time": 41.68,
         "note": "A"
     },
     {
-        "time": 41.91,
-        "note": "E"
-    },
-    {
-        "time": 42.14,
-        "note": "D#"
-    },
-    {
-        "time": 42.38,
-        "note": "A"
-    },
-    {
-        "time": 42.61,
-        "note": "A#"
-    },
-    {
-        "time": 42.86,
-        "note": "E"
-    },
-    {
-        "time": 43.07,
-        "note": "D"
-    },
-    {
-        "time": 43.54,
-        "note": "F"
-    },
-    {
-        "time": 44.0,
-        "note": "C"
-    },
-    {
-        "time": 44.23,
-        "note": "E"
-    },
-    {
-        "time": 44.47,
-        "note": "C"
-    },
-    {
-        "time": 44.7,
-        "note": "A#"
-    },
-    {
-        "time": 44.91,
-        "note": "A#"
-    },
-    {
-        "time": 45.14,
-        "note": "F"
-    },
-    {
-        "time": 45.37,
-        "note": "D"
-    },
-    {
-        "time": 45.81,
+        "time": 42.05,
         "note": "G"
     },
     {
-        "time": 46.07,
-        "note": "D#"
+        "time": 42.89,
+        "note": "G"
     },
     {
-        "time": 46.3,
-        "note": "E"
+        "time": 43.19,
+        "note": "C"
+    },
+    {
+        "time": 43.44,
+        "note": "A"
+    },
+    {
+        "time": 43.75,
+        "note": "D"
+    },
+    {
+        "time": 43.89,
+        "note": "D"
+    },
+    {
+        "time": 44.03,
+        "note": "F"
+    },
+    {
+        "time": 44.28,
+        "note": "G"
+    },
+    {
+        "time": 44.56,
+        "note": "C"
+    },
+    {
+        "time": 45.7,
+        "note": "A"
     },
     {
         "time": 46.53,
-        "note": "B"
-    },
-    {
-        "time": 46.74,
-        "note": "F"
-    },
-    {
-        "time": 46.97,
-        "note": "C#"
-    },
-    {
-        "time": 47.21,
-        "note": "D#"
-    },
-    {
-        "time": 47.69,
-        "note": "C#"
-    },
-    {
-        "time": 47.9,
         "note": "G"
     },
     {
-        "time": 48.13,
-        "note": "A#"
-    },
-    {
-        "time": 48.62,
-        "note": "A#"
-    },
-    {
-        "time": 49.09,
-        "note": "E"
-    },
-    {
-        "time": 49.32,
-        "note": "E"
-    },
-    {
-        "time": 49.53,
-        "note": "D#"
-    },
-    {
-        "time": 49.76,
-        "note": "E"
-    },
-    {
-        "time": 50.02,
-        "note": "D#"
-    },
-    {
-        "time": 50.41,
-        "note": "A#"
-    },
-    {
-        "time": 50.67,
-        "note": "F"
-    },
-    {
-        "time": 50.87,
-        "note": "D"
-    },
-    {
-        "time": 51.13,
-        "note": "D"
-    },
-    {
-        "time": 51.34,
+        "time": 46.81,
         "note": "A"
     },
     {
-        "time": 51.78,
-        "note": "G#"
+        "time": 47.37,
+        "note": "G"
     },
     {
-        "time": 52.27,
-        "note": "A#"
+        "time": 47.95,
+        "note": "A"
     },
     {
-        "time": 52.5,
-        "note": "E"
+        "time": 48.23,
+        "note": "A"
     },
     {
-        "time": 52.73,
-        "note": "C"
+        "time": 48.79,
+        "note": "G"
     },
     {
-        "time": 53.17,
-        "note": "G#"
+        "time": 49.06,
+        "note": "G"
     },
     {
-        "time": 53.64,
-        "note": "D"
+        "time": 49.62,
+        "note": "G"
     },
     {
-        "time": 53.87,
-        "note": "A#"
-    },
-    {
-        "time": 54.08,
-        "note": "E"
-    },
-    {
-        "time": 54.29,
-        "note": "B"
-    },
-    {
-        "time": 54.54,
-        "note": "D#"
-    },
-    {
-        "time": 54.78,
-        "note": "D"
-    },
-    {
-        "time": 54.98,
-        "note": "F#"
-    },
-    {
-        "time": 55.24,
+        "time": 49.9,
         "note": "F"
     },
     {
-        "time": 55.57,
+        "time": 50.04,
+        "note": "A"
+    },
+    {
+        "time": 50.18,
+        "note": "A"
+    },
+    {
+        "time": 50.48,
+        "note": "A"
+    },
+    {
+        "time": 50.74,
+        "note": "G"
+    },
+    {
+        "time": 51.01,
+        "note": "G"
+    },
+    {
+        "time": 51.29,
         "note": "F"
     },
     {
-        "time": 55.87,
-        "note": "E"
+        "time": 51.87,
+        "note": "D"
     },
     {
-        "time": 56.12,
-        "note": "F#"
+        "time": 52.43,
+        "note": "A"
+    },
+    {
+        "time": 53.27,
+        "note": "G"
+    },
+    {
+        "time": 53.55,
+        "note": "G"
+    },
+    {
+        "time": 54.1,
+        "note": "G"
+    },
+    {
+        "time": 54.68,
+        "note": "A"
+    },
+    {
+        "time": 54.96,
+        "note": "A#"
+    },
+    {
+        "time": 55.5,
+        "note": "G"
+    },
+    {
+        "time": 55.8,
+        "note": "F"
     },
     {
         "time": 56.35,
-        "note": "F#"
-    },
-    {
-        "time": 56.59,
-        "note": "F#"
-    },
-    {
-        "time": 56.82,
-        "note": "E"
-    },
-    {
-        "time": 57.05,
-        "note": "E"
-    },
-    {
-        "time": 57.38,
-        "note": "E"
-    },
-    {
-        "time": 57.66,
-        "note": "E"
-    },
-    {
-        "time": 57.93,
-        "note": "G#"
-    },
-    {
-        "time": 58.17,
-        "note": "G#"
-    },
-    {
-        "time": 58.4,
         "note": "G"
     },
     {
-        "time": 58.63,
-        "note": "F#"
-    },
-    {
-        "time": 58.86,
-        "note": "A#"
-    },
-    {
-        "time": 59.19,
-        "note": "A#"
-    },
-    {
-        "time": 59.49,
-        "note": "E"
-    },
-    {
-        "time": 59.98,
-        "note": "D#"
-    },
-    {
-        "time": 60.21,
+        "time": 56.91,
         "note": "A"
     },
     {
-        "time": 60.42,
-        "note": "A#"
-    },
-    {
-        "time": 60.65,
-        "note": "F#"
-    },
-    {
-        "time": 60.98,
-        "note": "F#"
-    },
-    {
-        "time": 61.25,
-        "note": "A"
-    },
-    {
-        "time": 61.46,
-        "note": "E"
-    },
-    {
-        "time": 61.74,
-        "note": "A#"
-    },
-    {
-        "time": 62.21,
-        "note": "C#"
-    },
-    {
-        "time": 62.44,
-        "note": "E"
-    },
-    {
-        "time": 62.67,
-        "note": "F#"
-    },
-    {
-        "time": 63.14,
-        "note": "A#"
-    },
-    {
-        "time": 63.37,
-        "note": "E"
-    },
-    {
-        "time": 63.6,
-        "note": "D"
-    },
-    {
-        "time": 63.83,
-        "note": "C#"
-    },
-    {
-        "time": 64.04,
+        "time": 57.75,
         "note": "G"
     },
     {
-        "time": 64.53,
-        "note": "E"
-    },
-    {
-        "time": 64.76,
-        "note": "A#"
-    },
-    {
-        "time": 64.99,
-        "note": "D"
-    },
-    {
-        "time": 65.43,
+        "time": 58.03,
         "note": "A"
     },
     {
-        "time": 65.67,
-        "note": "G#"
+        "time": 58.58,
+        "note": "G"
+    },
+    {
+        "time": 59.16,
+        "note": "A"
+    },
+    {
+        "time": 60.28,
+        "note": "F"
+    },
+    {
+        "time": 60.84,
+        "note": "G"
+    },
+    {
+        "time": 61.39,
+        "note": "E"
+    },
+    {
+        "time": 62.51,
+        "note": "G"
+    },
+    {
+        "time": 63.92,
+        "note": "G"
+    },
+    {
+        "time": 64.37,
+        "note": "A"
+    },
+    {
+        "time": 64.74,
+        "note": "D"
+    },
+    {
+        "time": 65.32,
+        "note": "A"
+    },
+    {
+        "time": 65.6,
+        "note": "D"
     },
     {
         "time": 65.88,
-        "note": "G#"
-    },
-    {
-        "time": 66.11,
-        "note": "F"
-    },
-    {
-        "time": 66.34,
         "note": "A"
     },
     {
-        "time": 66.57,
-        "note": "F#"
+        "time": 66.15,
+        "note": "F"
     },
     {
-        "time": 66.78,
-        "note": "A#"
+        "time": 66.46,
+        "note": "A"
     },
     {
-        "time": 67.01,
-        "note": "C#"
-    },
-    {
-        "time": 67.22,
-        "note": "E"
-    },
-    {
-        "time": 67.45,
+        "time": 66.71,
         "note": "D"
     },
     {
-        "time": 67.66,
-        "note": "A#"
+        "time": 66.87,
+        "note": "F"
+    },
+    {
+        "time": 66.99,
+        "note": "A"
+    },
+    {
+        "time": 67.29,
+        "note": "G"
+    },
+    {
+        "time": 67.43,
+        "note": "G"
+    },
+    {
+        "time": 67.55,
+        "note": "G"
     },
     {
         "time": 67.85,
-        "note": "E"
+        "note": "F"
     },
     {
-        "time": 68.08,
-        "note": "B"
+        "time": 67.99,
+        "note": "F"
     },
     {
-        "time": 68.31,
+        "time": 68.13,
         "note": "G"
     },
     {
-        "time": 68.55,
+        "time": 68.27,
+        "note": "G"
+    },
+    {
+        "time": 68.41,
+        "note": "G"
+    },
+    {
+        "time": 68.57,
+        "note": "G"
+    },
+    {
+        "time": 68.68,
+        "note": "A"
+    },
+    {
+        "time": 68.82,
+        "note": "A"
+    },
+    {
+        "time": 68.96,
+        "note": "F"
+    },
+    {
+        "time": 69.1,
+        "note": "F"
+    },
+    {
+        "time": 69.24,
+        "note": "A"
+    },
+    {
+        "time": 69.38,
+        "note": "A"
+    },
+    {
+        "time": 69.52,
+        "note": "F"
+    },
+    {
+        "time": 69.66,
+        "note": "G"
+    },
+    {
+        "time": 69.8,
+        "note": "A"
+    },
+    {
+        "time": 70.08,
+        "note": "F"
+    },
+    {
+        "time": 70.36,
+        "note": "A"
+    },
+    {
+        "time": 70.64,
+        "note": "F"
+    },
+    {
+        "time": 70.94,
+        "note": "A"
+    },
+    {
+        "time": 71.19,
+        "note": "D"
+    },
+    {
+        "time": 71.49,
+        "note": "A"
+    },
+    {
+        "time": 71.77,
+        "note": "G"
+    },
+    {
+        "time": 72.03,
+        "note": "G"
+    },
+    {
+        "time": 73.17,
         "note": "C"
     },
     {
-        "time": 68.75,
-        "note": "D#"
+        "time": 73.72,
+        "note": "A"
     },
     {
-        "time": 69.01,
+        "time": 74.28,
         "note": "G"
     },
     {
-        "time": 69.47,
-        "note": "G#"
+        "time": 74.54,
+        "note": "A"
     },
     {
-        "time": 69.71,
-        "note": "F#"
+        "time": 75.09,
+        "note": "A"
     },
     {
-        "time": 70.03,
+        "time": 75.98,
+        "note": "A"
+    },
+    {
+        "time": 76.49,
+        "note": "A"
+    },
+    {
+        "time": 77.09,
+        "note": "A"
+    },
+    {
+        "time": 77.37,
         "note": "F"
     },
     {
-        "time": 70.33,
-        "note": "E"
-    },
-    {
-        "time": 70.61,
-        "note": "G#"
-    },
-    {
-        "time": 70.84,
-        "note": "D"
-    },
-    {
-        "time": 71.08,
-        "note": "A#"
-    },
-    {
-        "time": 71.29,
-        "note": "A#"
-    },
-    {
-        "time": 71.52,
-        "note": "D"
-    },
-    {
-        "time": 71.84,
-        "note": "F#"
-    },
-    {
-        "time": 72.14,
-        "note": "F#"
-    },
-    {
-        "time": 72.63,
-        "note": "F#"
-    },
-    {
-        "time": 72.89,
-        "note": "F#"
-    },
-    {
-        "time": 73.07,
-        "note": "D"
-    },
-    {
-        "time": 73.33,
-        "note": "D#"
-    },
-    {
-        "time": 73.65,
-        "note": "F#"
-    },
-    {
-        "time": 73.93,
-        "note": "A#"
-    },
-    {
-        "time": 74.19,
+        "time": 78.09,
         "note": "F"
     },
     {
-        "time": 74.42,
-        "note": "G#"
+        "time": 79.34,
+        "note": "G"
     },
     {
-        "time": 74.65,
-        "note": "A#"
+        "time": 79.48,
+        "note": "C"
     },
     {
-        "time": 74.86,
+        "time": 80.46,
+        "note": "A"
+    },
+    {
+        "time": 81.01,
+        "note": "C"
+    },
+    {
+        "time": 82.29,
+        "note": "C"
+    },
+    {
+        "time": 82.66,
+        "note": "F"
+    },
+    {
+        "time": 83.27,
+        "note": "G"
+    },
+    {
+        "time": 83.82,
+        "note": "G"
+    },
+    {
+        "time": 83.94,
+        "note": "F"
+    },
+    {
+        "time": 84.38,
+        "note": "G"
+    },
+    {
+        "time": 84.94,
+        "note": "C"
+    },
+    {
+        "time": 85.5,
+        "note": "G"
+    },
+    {
+        "time": 85.75,
+        "note": "F"
+    },
+    {
+        "time": 86.08,
+        "note": "D"
+    },
+    {
+        "time": 86.63,
+        "note": "A"
+    },
+    {
+        "time": 86.91,
+        "note": "F"
+    },
+    {
+        "time": 87.19,
+        "note": "A"
+    },
+    {
+        "time": 87.33,
+        "note": "C"
+    },
+    {
+        "time": 87.75,
+        "note": "A"
+    },
+    {
+        "time": 88.42,
+        "note": "C"
+    },
+    {
+        "time": 88.58,
+        "note": "F"
+    },
+    {
+        "time": 90.56,
+        "note": "G"
+    },
+    {
+        "time": 91.39,
+        "note": "G"
+    },
+    {
+        "time": 91.67,
         "note": "D#"
     },
     {
-        "time": 75.07,
+        "time": 92.23,
+        "note": "G"
+    },
+    {
+        "time": 92.81,
+        "note": "G"
+    },
+    {
+        "time": 93.65,
+        "note": "G"
+    },
+    {
+        "time": 93.92,
+        "note": "A"
+    },
+    {
+        "time": 94.48,
+        "note": "G"
+    },
+    {
+        "time": 95.04,
+        "note": "D"
+    },
+    {
+        "time": 95.88,
+        "note": "G"
+    },
+    {
+        "time": 96.15,
         "note": "E"
     },
     {
-        "time": 75.3,
+        "time": 96.73,
+        "note": "G"
+    },
+    {
+        "time": 97.01,
+        "note": "A#"
+    },
+    {
+        "time": 97.29,
+        "note": "E"
+    },
+    {
+        "time": 97.57,
+        "note": "G"
+    },
+    {
+        "time": 97.85,
+        "note": "G"
+    },
+    {
+        "time": 98.13,
+        "note": "G"
+    },
+    {
+        "time": 98.41,
+        "note": "G"
+    },
+    {
+        "time": 99.54,
+        "note": "D"
+    },
+    {
+        "time": 101.22,
+        "note": "A"
+    },
+    {
+        "time": 101.77,
+        "note": "G"
+    },
+    {
+        "time": 102.05,
+        "note": "D"
+    },
+    {
+        "time": 102.33,
+        "note": "G"
+    },
+    {
+        "time": 102.61,
+        "note": "G"
+    },
+    {
+        "time": 102.89,
+        "note": "A"
+    },
+    {
+        "time": 103.19,
+        "note": "G#"
+    },
+    {
+        "time": 103.44,
+        "note": "G"
+    },
+    {
+        "time": 103.75,
+        "note": "D#"
+    },
+    {
+        "time": 104.03,
+        "note": "D"
+    },
+    {
+        "time": 104.3,
+        "note": "A"
+    },
+    {
+        "time": 104.58,
+        "note": "G"
+    },
+    {
+        "time": 104.86,
+        "note": "G"
+    },
+    {
+        "time": 105.14,
+        "note": "E"
+    },
+    {
+        "time": 105.42,
+        "note": "A"
+    },
+    {
+        "time": 105.98,
+        "note": "A#"
+    },
+    {
+        "time": 106.28,
+        "note": "E"
+    },
+    {
+        "time": 106.56,
+        "note": "A#"
+    },
+    {
+        "time": 106.84,
+        "note": "F#"
+    },
+    {
+        "time": 107.37,
+        "note": "A#"
+    },
+    {
+        "time": 108.51,
+        "note": "F"
+    },
+    {
+        "time": 109.34,
+        "note": "G"
+    },
+    {
+        "time": 109.62,
+        "note": "C#"
+    },
+    {
+        "time": 110.18,
+        "note": "G"
+    },
+    {
+        "time": 110.46,
+        "note": "F#"
+    },
+    {
+        "time": 110.74,
+        "note": "E"
+    },
+    {
+        "time": 111.46,
+        "note": "A"
+    },
+    {
+        "time": 111.85,
+        "note": "G"
+    },
+    {
+        "time": 112.15,
+        "note": "F"
+    },
+    {
+        "time": 112.71,
+        "note": "F"
+    },
+    {
+        "time": 112.87,
+        "note": "G"
+    },
+    {
+        "time": 112.99,
         "note": "B"
     },
     {
-        "time": 75.53,
+        "time": 113.43,
+        "note": "A"
+    },
+    {
+        "time": 113.82,
+        "note": "G"
+    },
+    {
+        "time": 113.99,
+        "note": "A"
+    },
+    {
+        "time": 114.1,
+        "note": "F"
+    },
+    {
+        "time": 114.4,
+        "note": "F"
+    },
+    {
+        "time": 114.54,
+        "note": "A"
+    },
+    {
+        "time": 114.96,
+        "note": "D#"
+    },
+    {
+        "time": 115.24,
+        "note": "C#"
+    },
+    {
+        "time": 115.8,
+        "note": "G"
+    },
+    {
+        "time": 116.08,
+        "note": "G"
+    },
+    {
+        "time": 116.36,
+        "note": "G"
+    },
+    {
+        "time": 116.63,
         "note": "D"
     },
     {
-        "time": 75.77,
+        "time": 116.91,
+        "note": "G"
+    },
+    {
+        "time": 117.47,
+        "note": "C#"
+    },
+    {
+        "time": 117.77,
+        "note": "A"
+    },
+    {
+        "time": 117.91,
+        "note": "A"
+    },
+    {
+        "time": 118.03,
+        "note": "C"
+    },
+    {
+        "time": 118.61,
+        "note": "F"
+    },
+    {
+        "time": 119.16,
+        "note": "D"
+    },
+    {
+        "time": 119.72,
+        "note": "C"
+    },
+    {
+        "time": 120.56,
+        "note": "G"
+    },
+    {
+        "time": 120.84,
+        "note": "B"
+    },
+    {
+        "time": 121.39,
+        "note": "G"
+    },
+    {
+        "time": 121.97,
         "note": "G#"
     },
     {
-        "time": 76.07,
+        "time": 122.79,
+        "note": "G"
+    },
+    {
+        "time": 123.09,
+        "note": "A"
+    },
+    {
+        "time": 123.65,
+        "note": "G"
+    },
+    {
+        "time": 124.2,
+        "note": "F#"
+    },
+    {
+        "time": 125.04,
+        "note": "G"
+    },
+    {
+        "time": 125.32,
         "note": "E"
     },
     {
-        "time": 78.85,
+        "time": 127.15,
+        "note": "A"
+    },
+    {
+        "time": 127.43,
+        "note": "G"
+    },
+    {
+        "time": 127.57,
+        "note": "D"
+    },
+    {
+        "time": 127.85,
+        "note": "G"
+    },
+    {
+        "time": 128.13,
+        "note": "C"
+    },
+    {
+        "time": 128.41,
+        "note": "F"
+    },
+    {
+        "time": 128.68,
+        "note": "G"
+    },
+    {
+        "time": 128.96,
+        "note": "G"
+    },
+    {
+        "time": 129.8,
+        "note": "G"
+    },
+    {
+        "time": 130.66,
+        "note": "A"
+    },
+    {
+        "time": 130.94,
+        "note": "A"
+    },
+    {
+        "time": 131.22,
+        "note": "G"
+    },
+    {
+        "time": 131.49,
+        "note": "A"
+    },
+    {
+        "time": 131.63,
+        "note": "A"
+    },
+    {
+        "time": 131.77,
+        "note": "B"
+    },
+    {
+        "time": 132.05,
+        "note": "C"
+    },
+    {
+        "time": 132.33,
+        "note": "G"
+    },
+    {
+        "time": 132.61,
+        "note": "C"
+    },
+    {
+        "time": 132.89,
+        "note": "F"
+    },
+    {
+        "time": 133.17,
+        "note": "G"
+    },
+    {
+        "time": 133.45,
+        "note": "G"
+    },
+    {
+        "time": 133.72,
+        "note": "C"
+    },
+    {
+        "time": 134.3,
+        "note": "C"
+    },
+    {
+        "time": 135.26,
+        "note": "G"
+    },
+    {
+        "time": 135.42,
+        "note": "A"
+    },
+    {
+        "time": 135.7,
+        "note": "G"
+    },
+    {
+        "time": 135.98,
+        "note": "C"
+    },
+    {
+        "time": 136.12,
+        "note": "G"
+    },
+    {
+        "time": 136.39,
+        "note": "A"
+    },
+    {
+        "time": 136.53,
+        "note": "A"
+    },
+    {
+        "time": 136.81,
+        "note": "F"
+    },
+    {
+        "time": 137.09,
+        "note": "C"
+    },
+    {
+        "time": 137.37,
+        "note": "F"
+    },
+    {
+        "time": 137.49,
+        "note": "G"
+    },
+    {
+        "time": 137.65,
+        "note": "C"
+    },
+    {
+        "time": 137.93,
+        "note": "F"
+    },
+    {
+        "time": 138.21,
+        "note": "C"
+    },
+    {
+        "time": 138.34,
+        "note": "C"
+    },
+    {
+        "time": 138.48,
+        "note": "D"
+    },
+    {
+        "time": 138.62,
+        "note": "F"
+    },
+    {
+        "time": 138.76,
+        "note": "C"
+    },
+    {
+        "time": 143.45,
+        "note": "C#"
+    },
+    {
+        "time": 144.31,
+        "note": "E"
+    },
+    {
+        "time": 144.73,
+        "note": "D#"
+    },
+    {
+        "time": 150.12,
+        "note": "G#"
+    },
+    {
+        "time": 152.65,
+        "note": "D#"
+    },
+    {
+        "time": 153.46,
+        "note": "A"
+    },
+    {
+        "time": 160.75,
         "note": "A#"
     },
     {
-        "time": 79.02,
+        "time": 163.45,
+        "note": "C"
+    },
+    {
+        "time": 163.86,
+        "note": "E"
+    },
+    {
+        "time": 168.02,
+        "note": "B"
+    },
+    {
+        "time": 168.25,
+        "note": "C#"
+    },
+    {
+        "time": 170.13,
         "note": "E"
     }
 ]

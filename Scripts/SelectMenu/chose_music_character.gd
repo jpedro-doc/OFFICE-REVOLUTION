@@ -24,11 +24,10 @@ func _on_button_2_pressed() -> void:
 	Music.custom_song.stream = musicStream
 	
 	var output = []
-	var python = "C:/Users/davi5/AppData/Local/Microsoft/WindowsApps/python3.11.exe"
-	var script = "audio.py"
+	var python = "dist/audio.exe"
 	var song_path = file_dialog_song.current_path
 	
-	var result = OS.execute(python, [script, song_path], output, true)
+	var result = OS.execute(python, [song_path], output, true)
 	
 	if result == 0:
 		print("✅ Python ran successfully!")
