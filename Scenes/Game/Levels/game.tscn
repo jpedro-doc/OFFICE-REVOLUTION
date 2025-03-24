@@ -1,5 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://2o4naec7ilhi"]
-
+[gd_scene load_steps=24 format=3 uid="uid://2o4naec7ilhi"]
 
 [ext_resource type="Script" uid="uid://bu02q5uvu037q" path="res://Scripts/Game/game.gd" id="1_ciybh"]
 [ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="2_flgk0"]
@@ -65,13 +64,15 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_4r1fh"]
+[sub_resource type="Curve" id="Curve_3ejvm"]
 _data = [Vector2(0.00581396, 1), 0.0, 0.0, 0, 0, Vector2(0.994176, 0.247191), 0.0, 0.0, 0, 0]
 point_count = 2
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4r1fh"]
 shader = ExtResource("2_i4g5t")
 shader_parameter/influence = 0.38
 
-[node name="Game" type="Node2D"]
+[node name="Game2" type="Node2D"]
 process_mode = 1
 material = SubResource("ShaderMaterial_wthbm")
 script = ExtResource("1_ciybh")
@@ -99,8 +100,8 @@ theme_override_font_sizes/font_size = 24
 text = "score:0"
 
 [node name="vida" type="Label" parent="."]
-offset_left = 1032.0
-offset_right = 1128.0
+offset_left = 1023.0
+offset_right = 1119.0
 offset_bottom = 24.0
 theme_override_fonts/font = ExtResource("6_snmm7")
 theme_override_font_sizes/font_size = 24
@@ -114,7 +115,6 @@ sprite_frames = SubResource("SpriteFrames_11r3b")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame_progress = 0.837662
-
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
 unique_name_in_owner = true
@@ -130,7 +130,6 @@ scale_amount_min = 2.0
 scale_amount_max = 4.0
 scale_amount_curve = SubResource("Curve_3ejvm")
 color = Color(0.593705, 0.656572, 0.841414, 1)
-[node name="Quirrel" type="Node2D" parent="."]
 
 [node name="rainbow" type="Sprite2D" parent="."]
 visible = false
@@ -140,3 +139,4 @@ position = Vector2(588.5, 324.5)
 scale = Vector2(1.62364, 0.41897)
 texture = ExtResource("18_wthbm")
 
+[node name="Quirrel" type="Node2D" parent="."]

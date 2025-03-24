@@ -7,7 +7,7 @@ extends Node2D
 @onready var quirrel: Node2D = $Quirrel
 @onready var rainbow: Sprite2D = $rainbow
 
-var vida_atual: int  : set = _set_vida
+var vida_atual: int = 10  : set = _set_vida
 
 const ARROW_LEFT = preload("res://Scenes/Game/Arrows/arrow_left.tscn")
 const ARROW_DOWN = preload("res://Scenes/Game/Arrows/arrow_down.tscn")
@@ -33,11 +33,15 @@ var arrow = {
 	"down": ARROW_DOWN
 }
 
+var tree:SceneTree
+
 func _ready() -> void:
+	tree = get_tree()
+	vida_atual = max_vida
 	vida.text = "Vida: " + str(max_vida)
 	Music.main_menu_music.stop()
 
-	vida_atual = max_vida
+	
 	var file = ""
 
 	print(Globals.enemy_chosen)
@@ -86,20 +90,24 @@ func _ready() -> void:
 	particles = $CPUParticles2D  
 	particles.emitting = false  
 
-func perder_vida():
+func _process(delta: float) -> void:
+	print(vida_atual)
 
+func perder_vida():
+		print(max_vida)
+		print(vida_atual)
 		vida_atual -= 1
 		Sfx.miss.play()
 		if vida_atual <= 0:
 			game_over()
 
 func ganhar_vida():
+
 	if vida_atual < max_vida:
 		vida_atual += 1
 
 func game_over():
-	print("Game Over!")
-	get_tree().reload_current_scene()
+	tree.reload_current_scene()
 
 func spawn_arrow(note: String):
 	var arrow_direction = note_arrows[note]
@@ -107,7 +115,9 @@ func spawn_arrow(note: String):
 	quirrel.add_child(arrow_colored)
 
 func _set_vida(new_value: int):
+	vida_atual = new_value
 	vida.text = "Vida: " + str(new_value)
+	
 
 func prepare_rave():
 	if quirrel.get_child(-1) is Node2D:
