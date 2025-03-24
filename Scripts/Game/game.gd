@@ -44,8 +44,6 @@ func _ready() -> void:
 	
 	var file = ""
 
-	print(Globals.enemy_chosen)
-
 	
 	if Globals.enemy_chosen == "janitor": 
 		song = Music.janitor_song
@@ -58,6 +56,12 @@ func _ready() -> void:
 	if Globals.enemy_chosen == "boss": 
 		song = Music.boss_song
 		file = Globals.NOTES_CHART_BOSS
+	
+	if Globals.enemy_chosen == "custom":
+		Music.custom_song.play()
+		file = Globals.NOTES_CHART
+		$AnimatedSprite2D.sprite_frames = Globals.sprite_frames_path
+		$AnimatedSprite2D.play()
 	
 	
 	if song:
@@ -90,16 +94,12 @@ func _ready() -> void:
 	particles = $CPUParticles2D  
 	particles.emitting = false  
 
-func _process(delta: float) -> void:
-	print(vida_atual)
-
 func perder_vida():
-		print(max_vida)
-		print(vida_atual)
-		vida_atual -= 1
-		Sfx.miss.play()
-		if vida_atual <= 0:
-			game_over()
+	stop_rave()
+	vida_atual -= 1
+	Sfx.miss.play()
+	if vida_atual <= 0:
+		game_over()
 
 func ganhar_vida():
 
@@ -126,6 +126,11 @@ func prepare_rave():
 func start_rave():
 	quirrel.get_children().filter(func(arrows:Node2D):
 		arrows.sprite_2d.use_parent_material = false
+		)
+		
+func stop_rave():
+	quirrel.get_children().filter(func(arrows:Node2D):
+		arrows.sprite_2d.use_parent_material = true
 		)
 
 func on_music_finished() -> void:

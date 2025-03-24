@@ -1,5 +1,4 @@
 import librosa
-import librosa.display
 import json
 import numpy as np
 import sys
@@ -34,7 +33,6 @@ def analyze_music(file_path):
 
     with open("notes_chart.json", "w") as f:
         json.dump(detected_notes, f, indent=4)
-    
 
 
 analyze_music(sys.argv[1])
