@@ -1,122 +1,10 @@
 [
     {
-        "time": 0.26,
-        "note": "B"
-    },
-    {
-        "time": 0.46,
-        "note": "A"
-    },
-    {
-        "time": 0.72,
-        "note": "A"
-    },
-    {
-        "time": 0.88,
-        "note": "A"
-    },
-    {
-        "time": 0.95,
-        "note": "A"
-    },
-    {
-        "time": 1.18,
-        "note": "B"
-    },
-    {
-        "time": 1.39,
-        "note": "A"
-    },
-    {
-        "time": 1.65,
-        "note": "B"
-    },
-    {
-        "time": 1.81,
-        "note": "B"
-    },
-    {
-        "time": 2.04,
-        "note": "B"
-    },
-    {
-        "time": 2.11,
-        "note": "C#"
-    },
-    {
-        "time": 2.32,
-        "note": "B"
-    },
-    {
-        "time": 2.58,
-        "note": "B"
-    },
-    {
-        "time": 2.72,
-        "note": "B"
-    },
-    {
-        "time": 2.81,
-        "note": "B"
-    },
-    {
-        "time": 2.95,
-        "note": "B"
-    },
-    {
-        "time": 3.02,
-        "note": "C#"
-    },
-    {
-        "time": 3.18,
-        "note": "C#"
-    },
-    {
-        "time": 3.25,
-        "note": "B"
-    },
-    {
-        "time": 3.48,
+        "time": 0.07,
         "note": "C"
     },
     {
-        "time": 3.65,
-        "note": "C#"
-    },
-    {
-        "time": 3.72,
-        "note": "C#"
-    },
-    {
-        "time": 3.88,
-        "note": "C#"
-    },
-    {
-        "time": 3.95,
-        "note": "C#"
-    },
-    {
-        "time": 4.16,
-        "note": "C#"
-    },
-    {
-        "time": 4.41,
-        "note": "C#"
-    },
-    {
-        "time": 4.57,
-        "note": "C#"
-    },
-    {
-        "time": 4.64,
-        "note": "C#"
-    },
-    {
-        "time": 4.88,
-        "note": "C#"
-    },
-    {
-        "time": 5.02,
+        "time": 1.74,
         "note": "C#"
     },
     {
@@ -124,2059 +12,1075 @@
         "note": "C#"
     },
     {
-        "time": 5.34,
-        "note": "C#"
+        "time": 5.22,
+        "note": "A"
     },
     {
-        "time": 5.5,
+        "time": 5.48,
         "note": "C#"
     },
     {
         "time": 5.74,
+        "note": "A"
+    },
+    {
+        "time": 5.99,
         "note": "C#"
     },
     {
-        "time": 5.8,
-        "note": "C#"
-    },
-    {
-        "time": 6.01,
-        "note": "C#"
-    },
-    {
-        "time": 6.27,
-        "note": "C#"
+        "time": 6.25,
+        "note": "C"
     },
     {
         "time": 6.5,
-        "note": "C#"
-    },
-    {
-        "time": 6.64,
-        "note": "C"
+        "note": "F#"
     },
     {
         "time": 6.71,
         "note": "C"
     },
     {
-        "time": 6.87,
+        "time": 6.97,
         "note": "C#"
     },
     {
-        "time": 6.94,
+        "time": 7.22,
+        "note": "D"
+    },
+    {
+        "time": 7.48,
+        "note": "A"
+    },
+    {
+        "time": 7.73,
         "note": "C#"
     },
     {
-        "time": 7.17,
-        "note": "C#"
+        "time": 7.96,
+        "note": "A#"
     },
     {
-        "time": 7.34,
-        "note": "C#"
+        "time": 8.17,
+        "note": "G"
     },
     {
-        "time": 7.43,
-        "note": "A"
+        "time": 8.38,
+        "note": "F#"
     },
     {
-        "time": 7.64,
-        "note": "B"
+        "time": 8.43,
+        "note": "F#"
     },
     {
-        "time": 7.87,
-        "note": "A"
-    },
-    {
-        "time": 8.1,
-        "note": "A"
-    },
-    {
-        "time": 8.27,
-        "note": "A"
-    },
-    {
-        "time": 8.34,
-        "note": "A"
-    },
-    {
-        "time": 8.5,
-        "note": "A"
-    },
-    {
-        "time": 8.57,
-        "note": "B"
-    },
-    {
-        "time": 8.71,
-        "note": "B"
-    },
-    {
-        "time": 8.8,
-        "note": "A"
+        "time": 8.85,
+        "note": "G"
     },
     {
         "time": 9.03,
-        "note": "B"
+        "note": "G"
     },
     {
-        "time": 9.2,
-        "note": "B"
+        "time": 9.15,
+        "note": "E"
     },
     {
-        "time": 9.43,
-        "note": "B"
+        "time": 9.64,
+        "note": "A"
     },
     {
-        "time": 9.5,
+        "time": 9.89,
         "note": "C#"
     },
     {
-        "time": 9.71,
-        "note": "B"
-    },
-    {
-        "time": 9.96,
-        "note": "B"
-    },
-    {
-        "time": 10.1,
-        "note": "B"
-    },
-    {
-        "time": 10.19,
-        "note": "B"
-    },
-    {
-        "time": 10.33,
-        "note": "B"
-    },
-    {
-        "time": 10.4,
+        "time": 10.12,
         "note": "C#"
     },
     {
-        "time": 10.57,
-        "note": "C#"
+        "time": 10.38,
+        "note": "E"
     },
     {
-        "time": 10.63,
-        "note": "B"
+        "time": 10.61,
+        "note": "A#"
     },
     {
         "time": 10.87,
-        "note": "C#"
-    },
-    {
-        "time": 11.03,
-        "note": "C#"
-    },
-    {
-        "time": 11.1,
-        "note": "C#"
-    },
-    {
-        "time": 11.26,
-        "note": "C#"
-    },
-    {
-        "time": 11.33,
-        "note": "E"
-    },
-    {
-        "time": 11.56,
-        "note": "G"
-    },
-    {
-        "time": 11.8,
-        "note": "C#"
-    },
-    {
-        "time": 11.96,
-        "note": "C#"
-    },
-    {
-        "time": 12.03,
-        "note": "C#"
-    },
-    {
-        "time": 12.19,
-        "note": "C#"
-    },
-    {
-        "time": 12.26,
-        "note": "E"
-    },
-    {
-        "time": 12.4,
-        "note": "E"
-    },
-    {
-        "time": 12.47,
-        "note": "G"
-    },
-    {
-        "time": 12.72,
-        "note": "E"
-    },
-    {
-        "time": 12.89,
-        "note": "E"
-    },
-    {
-        "time": 13.19,
-        "note": "F#"
-    },
-    {
-        "time": 13.4,
-        "note": "F#"
-    },
-    {
-        "time": 13.65,
-        "note": "G#"
-    },
-    {
-        "time": 13.79,
-        "note": "G#"
-    },
-    {
-        "time": 13.89,
-        "note": "G#"
-    },
-    {
-        "time": 14.02,
-        "note": "G#"
-    },
-    {
-        "time": 14.09,
-        "note": "F#"
-    },
-    {
-        "time": 14.26,
-        "note": "F#"
-    },
-    {
-        "time": 14.33,
-        "note": "G#"
-    },
-    {
-        "time": 14.56,
-        "note": "F#"
-    },
-    {
-        "time": 14.72,
-        "note": "F#"
-    },
-    {
-        "time": 14.81,
-        "note": "A"
-    },
-    {
-        "time": 15.02,
-        "note": "A"
-    },
-    {
-        "time": 15.26,
-        "note": "A"
-    },
-    {
-        "time": 15.49,
-        "note": "B"
-    },
-    {
-        "time": 15.72,
-        "note": "A"
-    },
-    {
-        "time": 15.95,
-        "note": "A"
-    },
-    {
-        "time": 16.18,
-        "note": "B"
-    },
-    {
-        "time": 16.42,
-        "note": "A"
-    },
-    {
-        "time": 16.65,
-        "note": "B"
-    },
-    {
-        "time": 16.88,
-        "note": "B"
-    },
-    {
-        "time": 17.11,
-        "note": "B"
-    },
-    {
-        "time": 17.35,
-        "note": "C#"
-    },
-    {
-        "time": 17.58,
-        "note": "B"
-    },
-    {
-        "time": 17.81,
-        "note": "B"
-    },
-    {
-        "time": 18.04,
-        "note": "C#"
-    },
-    {
-        "time": 18.27,
-        "note": "B"
-    },
-    {
-        "time": 18.51,
-        "note": "C#"
-    },
-    {
-        "time": 18.74,
-        "note": "C#"
-    },
-    {
-        "time": 18.97,
-        "note": "C#"
-    },
-    {
-        "time": 19.41,
-        "note": "C#"
-    },
-    {
-        "time": 20.11,
-        "note": "C#"
-    },
-    {
-        "time": 20.57,
-        "note": "C#"
-    },
-    {
-        "time": 20.81,
-        "note": "C#"
-    },
-    {
-        "time": 21.04,
-        "note": "C#"
-    },
-    {
-        "time": 21.27,
-        "note": "C#"
-    },
-    {
-        "time": 21.73,
-        "note": "C#"
-    },
-    {
-        "time": 21.97,
-        "note": "C#"
-    },
-    {
-        "time": 22.2,
-        "note": "A"
-    },
-    {
-        "time": 22.43,
-        "note": "A"
-    },
-    {
-        "time": 22.89,
-        "note": "A"
-    },
-    {
-        "time": 23.13,
-        "note": "A"
-    },
-    {
-        "time": 23.57,
-        "note": "B"
-    },
-    {
-        "time": 24.03,
-        "note": "B"
-    },
-    {
-        "time": 24.96,
-        "note": "B"
-    },
-    {
-        "time": 25.66,
-        "note": "B"
-    },
-    {
-        "time": 27.72,
-        "note": "G#"
-    },
-    {
-        "time": 28.42,
-        "note": "F#"
-    },
-    {
-        "time": 28.65,
-        "note": "C#"
-    },
-    {
-        "time": 28.89,
-        "note": "C#"
-    },
-    {
-        "time": 29.0,
-        "note": "C#"
-    },
-    {
-        "time": 29.12,
-        "note": "C#"
-    },
-    {
-        "time": 29.35,
         "note": "C"
     },
     {
-        "time": 29.58,
-        "note": "D"
-    },
-    {
-        "time": 29.79,
-        "note": "G"
-    },
-    {
-        "time": 30.02,
-        "note": "G#"
-    },
-    {
-        "time": 30.28,
-        "note": "F"
-    },
-    {
-        "time": 30.49,
-        "note": "G"
-    },
-    {
-        "time": 30.72,
-        "note": "N/A"
-    },
-    {
-        "time": 30.95,
-        "note": "F"
-    },
-    {
-        "time": 31.18,
-        "note": "N/A"
-    },
-    {
-        "time": 31.37,
-        "note": "F"
-    },
-    {
-        "time": 31.42,
-        "note": "F"
-    },
-    {
-        "time": 31.65,
-        "note": "F"
-    },
-    {
-        "time": 31.86,
+        "time": 11.1,
         "note": "A#"
     },
     {
-        "time": 32.11,
-        "note": "B"
+        "time": 11.35,
+        "note": "F"
     },
     {
-        "time": 32.35,
-        "note": "D"
+        "time": 11.59,
+        "note": "A#"
     },
     {
-        "time": 32.58,
-        "note": "D"
+        "time": 11.82,
+        "note": "A#"
     },
     {
-        "time": 32.79,
+        "time": 12.07,
+        "note": "C"
+    },
+    {
+        "time": 12.31,
+        "note": "A#"
+    },
+    {
+        "time": 12.54,
         "note": "A"
     },
     {
-        "time": 33.04,
-        "note": "N/A"
-    },
-    {
-        "time": 33.16,
-        "note": "B"
-    },
-    {
-        "time": 33.25,
-        "note": "A"
-    },
-    {
-        "time": 33.48,
-        "note": "N/A"
-    },
-    {
-        "time": 33.72,
+        "time": 12.79,
         "note": "G"
     },
     {
-        "time": 33.95,
-        "note": "F"
-    },
-    {
-        "time": 34.18,
+        "time": 13.03,
         "note": "G"
     },
     {
-        "time": 34.41,
+        "time": 13.28,
         "note": "F"
     },
     {
-        "time": 34.64,
-        "note": "F"
-    },
-    {
-        "time": 34.88,
-        "note": "F"
-    },
-    {
-        "time": 35.11,
-        "note": "F"
-    },
-    {
-        "time": 35.34,
-        "note": "N/A"
-    },
-    {
-        "time": 35.55,
+        "time": 13.51,
         "note": "C#"
     },
     {
-        "time": 35.81,
-        "note": "N/A"
-    },
-    {
-        "time": 36.04,
+        "time": 13.75,
         "note": "D"
     },
     {
-        "time": 36.27,
+        "time": 13.98,
+        "note": "D"
+    },
+    {
+        "time": 14.21,
+        "note": "F"
+    },
+    {
+        "time": 14.47,
+        "note": "A#"
+    },
+    {
+        "time": 14.7,
+        "note": "A#"
+    },
+    {
+        "time": 14.95,
+        "note": "C"
+    },
+    {
+        "time": 15.21,
+        "note": "C"
+    },
+    {
+        "time": 15.44,
+        "note": "G"
+    },
+    {
+        "time": 15.7,
+        "note": "C"
+    },
+    {
+        "time": 15.91,
+        "note": "C"
+    },
+    {
+        "time": 16.11,
+        "note": "A"
+    },
+    {
+        "time": 16.42,
+        "note": "C"
+    },
+    {
+        "time": 16.6,
+        "note": "G"
+    },
+    {
+        "time": 16.83,
+        "note": "F#"
+    },
+    {
+        "time": 17.09,
+        "note": "G"
+    },
+    {
+        "time": 17.32,
+        "note": "D#"
+    },
+    {
+        "time": 17.79,
+        "note": "D"
+    },
+    {
+        "time": 18.04,
+        "note": "F#"
+    },
+    {
+        "time": 18.3,
+        "note": "F#"
+    },
+    {
+        "time": 18.53,
+        "note": "F"
+    },
+    {
+        "time": 18.76,
+        "note": "F"
+    },
+    {
+        "time": 19.25,
+        "note": "F#"
+    },
+    {
+        "time": 19.46,
         "note": "E"
     },
     {
-        "time": 36.48,
+        "time": 19.69,
+        "note": "E"
+    },
+    {
+        "time": 19.95,
+        "note": "F#"
+    },
+    {
+        "time": 20.18,
         "note": "A"
     },
     {
-        "time": 36.73,
+        "time": 20.64,
+        "note": "F#"
+    },
+    {
+        "time": 20.87,
         "note": "D"
     },
     {
-        "time": 36.94,
-        "note": "A"
+        "time": 21.13,
+        "note": "F#"
     },
     {
-        "time": 37.2,
-        "note": "N/A"
+        "time": 21.36,
+        "note": "F#"
     },
     {
-        "time": 37.41,
+        "time": 21.59,
+        "note": "F#"
+    },
+    {
+        "time": 21.83,
+        "note": "C"
+    },
+    {
+        "time": 22.08,
+        "note": "E"
+    },
+    {
+        "time": 22.55,
         "note": "F"
     },
     {
-        "time": 37.64,
+        "time": 22.78,
         "note": "F"
     },
     {
-        "time": 37.87,
-        "note": "A"
+        "time": 23.03,
+        "note": "D#"
     },
     {
-        "time": 38.1,
-        "note": "N/A"
+        "time": 23.27,
+        "note": "F#"
     },
     {
-        "time": 38.34,
-        "note": "F"
+        "time": 23.52,
+        "note": "E"
     },
     {
-        "time": 38.57,
-        "note": "N/A"
+        "time": 23.75,
+        "note": "E"
     },
     {
-        "time": 38.73,
-        "note": "A"
+        "time": 23.99,
+        "note": "E"
     },
     {
-        "time": 38.8,
-        "note": "F"
+        "time": 24.47,
+        "note": "F#"
     },
     {
-        "time": 39.03,
-        "note": "F"
+        "time": 24.68,
+        "note": "C"
     },
     {
-        "time": 39.24,
+        "time": 24.94,
+        "note": "D"
+    },
+    {
+        "time": 25.4,
         "note": "A#"
     },
     {
-        "time": 39.5,
-        "note": "B"
-    },
-    {
-        "time": 39.73,
-        "note": "D"
-    },
-    {
-        "time": 39.96,
-        "note": "D"
-    },
-    {
-        "time": 40.17,
+        "time": 25.63,
         "note": "G"
     },
     {
-        "time": 40.43,
-        "note": "B"
+        "time": 25.89,
+        "note": "F"
     },
     {
-        "time": 40.54,
-        "note": "B"
+        "time": 26.12,
+        "note": "C"
     },
     {
-        "time": 40.63,
+        "time": 26.35,
+        "note": "F"
+    },
+    {
+        "time": 26.82,
+        "note": "D"
+    },
+    {
+        "time": 27.05,
+        "note": "C"
+    },
+    {
+        "time": 27.28,
+        "note": "E"
+    },
+    {
+        "time": 27.52,
         "note": "A"
     },
     {
-        "time": 40.87,
-        "note": "N/A"
+        "time": 27.75,
+        "note": "F#"
     },
     {
-        "time": 41.1,
-        "note": "G"
+        "time": 27.98,
+        "note": "E"
     },
     {
-        "time": 41.33,
-        "note": "F"
+        "time": 28.19,
+        "note": "C"
     },
     {
-        "time": 41.56,
-        "note": "G"
-    },
-    {
-        "time": 41.8,
-        "note": "F"
-    },
-    {
-        "time": 42.03,
-        "note": "F"
-    },
-    {
-        "time": 42.26,
-        "note": "F"
-    },
-    {
-        "time": 42.4,
-        "note": "C#"
-    },
-    {
-        "time": 42.49,
-        "note": "F"
-    },
-    {
-        "time": 42.72,
-        "note": "N/A"
-    },
-    {
-        "time": 42.93,
+        "time": 28.68,
         "note": "A#"
     },
     {
-        "time": 43.19,
-        "note": "N/A"
+        "time": 28.91,
+        "note": "E"
     },
     {
-        "time": 43.33,
+        "time": 29.12,
+        "note": "A#"
+    },
+    {
+        "time": 29.35,
+        "note": "F"
+    },
+    {
+        "time": 29.61,
+        "note": "F"
+    },
+    {
+        "time": 29.84,
+        "note": "D"
+    },
+    {
+        "time": 30.07,
+        "note": "D#"
+    },
+    {
+        "time": 30.3,
+        "note": "F"
+    },
+    {
+        "time": 30.53,
+        "note": "C"
+    },
+    {
+        "time": 30.79,
+        "note": "A#"
+    },
+    {
+        "time": 31.0,
+        "note": "D"
+    },
+    {
+        "time": 31.23,
+        "note": "A"
+    },
+    {
+        "time": 31.46,
+        "note": "A#"
+    },
+    {
+        "time": 31.72,
+        "note": "A#"
+    },
+    {
+        "time": 31.93,
+        "note": "G"
+    },
+    {
+        "time": 32.39,
+        "note": "F#"
+    },
+    {
+        "time": 32.62,
+        "note": "A#"
+    },
+    {
+        "time": 32.83,
         "note": "G#"
     },
     {
-        "time": 43.42,
-        "note": "N/A"
+        "time": 33.09,
+        "note": "F#"
     },
     {
-        "time": 43.65,
-        "note": "N/A"
+        "time": 33.46,
+        "note": "F#"
     },
     {
-        "time": 43.89,
-        "note": "N/A"
+        "time": 33.79,
+        "note": "A#"
+    },
+    {
+        "time": 34.02,
+        "note": "F"
+    },
+    {
+        "time": 34.27,
+        "note": "F"
+    },
+    {
+        "time": 34.5,
+        "note": "C"
+    },
+    {
+        "time": 34.71,
+        "note": "D#"
+    },
+    {
+        "time": 34.97,
+        "note": "E"
+    },
+    {
+        "time": 35.32,
+        "note": "G"
+    },
+    {
+        "time": 35.64,
+        "note": "F"
+    },
+    {
+        "time": 35.9,
+        "note": "E"
+    },
+    {
+        "time": 36.13,
+        "note": "F"
+    },
+    {
+        "time": 36.36,
+        "note": "E"
+    },
+    {
+        "time": 36.59,
+        "note": "F#"
+    },
+    {
+        "time": 36.85,
+        "note": "E"
+    },
+    {
+        "time": 37.18,
+        "note": "F#"
+    },
+    {
+        "time": 37.48,
+        "note": "A#"
+    },
+    {
+        "time": 37.73,
+        "note": "E"
+    },
+    {
+        "time": 37.99,
+        "note": "F"
+    },
+    {
+        "time": 38.22,
+        "note": "A"
+    },
+    {
+        "time": 38.43,
+        "note": "F#"
+    },
+    {
+        "time": 38.68,
+        "note": "F#"
+    },
+    {
+        "time": 39.01,
+        "note": "E"
+    },
+    {
+        "time": 39.33,
+        "note": "F"
+    },
+    {
+        "time": 39.59,
+        "note": "F#"
+    },
+    {
+        "time": 39.82,
+        "note": "F"
+    },
+    {
+        "time": 40.26,
+        "note": "D"
+    },
+    {
+        "time": 40.52,
+        "note": "A"
+    },
+    {
+        "time": 40.75,
+        "note": "F"
+    },
+    {
+        "time": 41.22,
+        "note": "A#"
+    },
+    {
+        "time": 41.45,
+        "note": "C"
+    },
+    {
+        "time": 41.68,
+        "note": "A"
+    },
+    {
+        "time": 41.91,
+        "note": "E"
+    },
+    {
+        "time": 42.14,
+        "note": "D#"
+    },
+    {
+        "time": 42.38,
+        "note": "A"
+    },
+    {
+        "time": 42.61,
+        "note": "A#"
+    },
+    {
+        "time": 42.86,
+        "note": "E"
+    },
+    {
+        "time": 43.07,
+        "note": "D"
+    },
+    {
+        "time": 43.54,
+        "note": "F"
     },
     {
         "time": 44.0,
-        "note": "G#"
+        "note": "C"
     },
     {
-        "time": 44.12,
-        "note": "N/A"
-    },
-    {
-        "time": 44.33,
-        "note": "G"
+        "time": 44.23,
+        "note": "E"
     },
     {
         "time": 44.47,
         "note": "C"
     },
     {
-        "time": 44.56,
-        "note": "G"
-    },
-    {
-        "time": 44.79,
-        "note": "G"
-    },
-    {
-        "time": 45.05,
-        "note": "B"
-    },
-    {
-        "time": 45.26,
-        "note": "G"
-    },
-    {
-        "time": 45.49,
-        "note": "A"
-    },
-    {
-        "time": 45.72,
-        "note": "F"
-    },
-    {
-        "time": 45.95,
-        "note": "A"
-    },
-    {
-        "time": 46.11,
-        "note": "A"
-    },
-    {
-        "time": 46.18,
-        "note": "D"
-    },
-    {
-        "time": 46.35,
-        "note": "C"
-    },
-    {
-        "time": 46.42,
-        "note": "B"
-    },
-    {
-        "time": 46.63,
-        "note": "G"
-    },
-    {
-        "time": 46.88,
-        "note": "C#"
-    },
-    {
-        "time": 47.11,
-        "note": "D"
-    },
-    {
-        "time": 47.35,
-        "note": "B"
-    },
-    {
-        "time": 47.55,
-        "note": "A"
-    },
-    {
-        "time": 47.81,
-        "note": "B"
-    },
-    {
-        "time": 48.02,
-        "note": "A"
-    },
-    {
-        "time": 48.27,
-        "note": "C#"
-    },
-    {
-        "time": 48.48,
-        "note": "F"
-    },
-    {
-        "time": 48.74,
-        "note": "C#"
-    },
-    {
-        "time": 48.95,
-        "note": "G"
-    },
-    {
-        "time": 49.18,
-        "note": "C#"
-    },
-    {
-        "time": 49.41,
-        "note": "D"
-    },
-    {
-        "time": 49.64,
-        "note": "N/A"
-    },
-    {
-        "time": 49.81,
-        "note": "C#"
-    },
-    {
-        "time": 49.88,
-        "note": "F"
-    },
-    {
-        "time": 50.04,
-        "note": "C"
-    },
-    {
-        "time": 50.11,
-        "note": "N/A"
-    },
-    {
-        "time": 50.32,
-        "note": "A"
-    },
-    {
-        "time": 50.57,
-        "note": "C#"
-    },
-    {
-        "time": 50.81,
-        "note": "D"
-    },
-    {
-        "time": 51.04,
-        "note": "C#"
-    },
-    {
-        "time": 51.25,
+        "time": 44.7,
         "note": "A#"
     },
     {
-        "time": 51.5,
-        "note": "C#"
-    },
-    {
-        "time": 51.71,
+        "time": 44.91,
         "note": "A#"
     },
     {
-        "time": 51.87,
-        "note": "C"
-    },
-    {
-        "time": 51.97,
-        "note": "A"
-    },
-    {
-        "time": 52.18,
+        "time": 45.14,
         "note": "F"
     },
     {
-        "time": 52.41,
-        "note": "N/A"
-    },
-    {
-        "time": 52.64,
-        "note": "A"
-    },
-    {
-        "time": 52.87,
-        "note": "A"
-    },
-    {
-        "time": 53.1,
-        "note": "F"
-    },
-    {
-        "time": 53.34,
-        "note": "A"
-    },
-    {
-        "time": 53.5,
-        "note": "A"
-    },
-    {
-        "time": 53.57,
-        "note": "F"
-    },
-    {
-        "time": 53.73,
-        "note": "C"
-    },
-    {
-        "time": 53.8,
-        "note": "B"
-    },
-    {
-        "time": 54.01,
-        "note": "C"
-    },
-    {
-        "time": 54.27,
-        "note": "C#"
-    },
-    {
-        "time": 54.5,
+        "time": 45.37,
         "note": "D"
     },
     {
-        "time": 54.73,
+        "time": 45.81,
+        "note": "G"
+    },
+    {
+        "time": 46.07,
+        "note": "D#"
+    },
+    {
+        "time": 46.3,
+        "note": "E"
+    },
+    {
+        "time": 46.53,
         "note": "B"
     },
     {
-        "time": 54.94,
+        "time": 46.74,
+        "note": "F"
+    },
+    {
+        "time": 46.97,
+        "note": "C#"
+    },
+    {
+        "time": 47.21,
+        "note": "D#"
+    },
+    {
+        "time": 47.69,
+        "note": "C#"
+    },
+    {
+        "time": 47.9,
+        "note": "G"
+    },
+    {
+        "time": 48.13,
+        "note": "A#"
+    },
+    {
+        "time": 48.62,
+        "note": "A#"
+    },
+    {
+        "time": 49.09,
+        "note": "E"
+    },
+    {
+        "time": 49.32,
+        "note": "E"
+    },
+    {
+        "time": 49.53,
+        "note": "D#"
+    },
+    {
+        "time": 49.76,
+        "note": "E"
+    },
+    {
+        "time": 50.02,
+        "note": "D#"
+    },
+    {
+        "time": 50.41,
+        "note": "A#"
+    },
+    {
+        "time": 50.67,
+        "note": "F"
+    },
+    {
+        "time": 50.87,
+        "note": "D"
+    },
+    {
+        "time": 51.13,
+        "note": "D"
+    },
+    {
+        "time": 51.34,
         "note": "A"
     },
     {
-        "time": 55.19,
+        "time": 51.78,
+        "note": "G#"
+    },
+    {
+        "time": 52.27,
+        "note": "A#"
+    },
+    {
+        "time": 52.5,
+        "note": "E"
+    },
+    {
+        "time": 52.73,
+        "note": "C"
+    },
+    {
+        "time": 53.17,
+        "note": "G#"
+    },
+    {
+        "time": 53.64,
+        "note": "D"
+    },
+    {
+        "time": 53.87,
+        "note": "A#"
+    },
+    {
+        "time": 54.08,
+        "note": "E"
+    },
+    {
+        "time": 54.29,
         "note": "B"
     },
     {
-        "time": 55.33,
-        "note": "B"
+        "time": 54.54,
+        "note": "D#"
     },
     {
-        "time": 55.4,
-        "note": "A"
+        "time": 54.78,
+        "note": "D"
+    },
+    {
+        "time": 54.98,
+        "note": "F#"
+    },
+    {
+        "time": 55.24,
+        "note": "F"
     },
     {
         "time": 55.57,
-        "note": "C"
-    },
-    {
-        "time": 55.64,
         "note": "F"
     },
     {
         "time": 55.87,
-        "note": "G"
+        "note": "E"
     },
     {
-        "time": 56.1,
-        "note": "F"
-    },
-    {
-        "time": 56.26,
-        "note": "C#"
-    },
-    {
-        "time": 56.33,
-        "note": "G"
-    },
-    {
-        "time": 56.56,
-        "note": "C#"
-    },
-    {
-        "time": 56.8,
-        "note": "F"
-    },
-    {
-        "time": 57.03,
-        "note": "C#"
-    },
-    {
-        "time": 57.19,
-        "note": "C#"
-    },
-    {
-        "time": 57.26,
-        "note": "F"
-    },
-    {
-        "time": 57.42,
-        "note": "C"
-    },
-    {
-        "time": 57.49,
-        "note": "N/A"
-    },
-    {
-        "time": 57.7,
-        "note": "C"
-    },
-    {
-        "time": 57.96,
+        "time": 56.12,
         "note": "F#"
     },
     {
-        "time": 58.19,
-        "note": "D"
+        "time": 56.35,
+        "note": "F#"
     },
     {
-        "time": 58.42,
+        "time": 56.59,
+        "note": "F#"
+    },
+    {
+        "time": 56.82,
+        "note": "E"
+    },
+    {
+        "time": 57.05,
+        "note": "E"
+    },
+    {
+        "time": 57.38,
+        "note": "E"
+    },
+    {
+        "time": 57.66,
+        "note": "E"
+    },
+    {
+        "time": 57.93,
         "note": "G#"
+    },
+    {
+        "time": 58.17,
+        "note": "G#"
+    },
+    {
+        "time": 58.4,
+        "note": "G"
     },
     {
         "time": 58.63,
+        "note": "F#"
+    },
+    {
+        "time": 58.86,
+        "note": "A#"
+    },
+    {
+        "time": 59.19,
+        "note": "A#"
+    },
+    {
+        "time": 59.49,
+        "note": "E"
+    },
+    {
+        "time": 59.98,
+        "note": "D#"
+    },
+    {
+        "time": 60.21,
         "note": "A"
-    },
-    {
-        "time": 58.89,
-        "note": "G#"
-    },
-    {
-        "time": 59.12,
-        "note": "A"
-    },
-    {
-        "time": 59.35,
-        "note": "B"
-    },
-    {
-        "time": 59.56,
-        "note": "A"
-    },
-    {
-        "time": 59.81,
-        "note": "A"
-    },
-    {
-        "time": 60.02,
-        "note": "A"
-    },
-    {
-        "time": 60.26,
-        "note": "B"
     },
     {
         "time": 60.42,
-        "note": "B"
+        "note": "A#"
     },
     {
-        "time": 60.49,
+        "time": 60.65,
+        "note": "F#"
+    },
+    {
+        "time": 60.98,
+        "note": "F#"
+    },
+    {
+        "time": 61.25,
         "note": "A"
     },
     {
-        "time": 60.72,
-        "note": "B"
-    },
-    {
-        "time": 60.88,
-        "note": "B"
-    },
-    {
-        "time": 61.11,
-        "note": "B"
-    },
-    {
-        "time": 61.18,
-        "note": "C#"
-    },
-    {
-        "time": 61.39,
-        "note": "B"
-    },
-    {
-        "time": 61.65,
-        "note": "B"
-    },
-    {
-        "time": 61.88,
+        "time": 61.46,
         "note": "E"
     },
     {
-        "time": 62.11,
+        "time": 61.74,
+        "note": "A#"
+    },
+    {
+        "time": 62.21,
         "note": "C#"
     },
     {
-        "time": 62.25,
-        "note": "C#"
+        "time": 62.44,
+        "note": "E"
     },
     {
-        "time": 62.32,
-        "note": "G"
+        "time": 62.67,
+        "note": "F#"
     },
     {
-        "time": 62.58,
-        "note": "C#"
+        "time": 63.14,
+        "note": "A#"
     },
     {
-        "time": 62.81,
-        "note": "C#"
+        "time": 63.37,
+        "note": "E"
     },
     {
-        "time": 63.04,
-        "note": "C#"
-    },
-    {
-        "time": 63.25,
-        "note": "C#"
-    },
-    {
-        "time": 63.51,
-        "note": "C#"
-    },
-    {
-        "time": 63.65,
-        "note": "C#"
-    },
-    {
-        "time": 63.95,
-        "note": "C#"
-    },
-    {
-        "time": 64.18,
-        "note": "G"
-    },
-    {
-        "time": 64.41,
-        "note": "C#"
-    },
-    {
-        "time": 64.57,
-        "note": "C#"
-    },
-    {
-        "time": 64.88,
-        "note": "C#"
-    },
-    {
-        "time": 65.09,
-        "note": "C#"
-    },
-    {
-        "time": 65.34,
-        "note": "C#"
-    },
-    {
-        "time": 65.57,
-        "note": "A"
-    },
-    {
-        "time": 65.81,
-        "note": "C#"
-    },
-    {
-        "time": 66.04,
-        "note": "C#"
-    },
-    {
-        "time": 66.27,
-        "note": "C#"
-    },
-    {
-        "time": 66.5,
-        "note": "A"
-    },
-    {
-        "time": 66.71,
-        "note": "B"
-    },
-    {
-        "time": 66.94,
-        "note": "A"
-    },
-    {
-        "time": 67.2,
-        "note": "A"
-    },
-    {
-        "time": 67.55,
-        "note": "A"
-    },
-    {
-        "time": 67.64,
-        "note": "B"
-    },
-    {
-        "time": 67.8,
-        "note": "B"
-    },
-    {
-        "time": 67.87,
-        "note": "A"
-    },
-    {
-        "time": 68.1,
-        "note": "B"
-    },
-    {
-        "time": 68.27,
-        "note": "B"
-    },
-    {
-        "time": 68.57,
-        "note": "C#"
-    },
-    {
-        "time": 68.78,
-        "note": "B"
-    },
-    {
-        "time": 69.03,
-        "note": "B"
-    },
-    {
-        "time": 69.27,
+        "time": 63.6,
         "note": "D"
     },
     {
-        "time": 69.5,
+        "time": 63.83,
         "note": "C#"
     },
     {
-        "time": 69.64,
+        "time": 64.04,
+        "note": "G"
+    },
+    {
+        "time": 64.53,
+        "note": "E"
+    },
+    {
+        "time": 64.76,
+        "note": "A#"
+    },
+    {
+        "time": 64.99,
+        "note": "D"
+    },
+    {
+        "time": 65.43,
+        "note": "A"
+    },
+    {
+        "time": 65.67,
+        "note": "G#"
+    },
+    {
+        "time": 65.88,
+        "note": "G#"
+    },
+    {
+        "time": 66.11,
+        "note": "F"
+    },
+    {
+        "time": 66.34,
+        "note": "A"
+    },
+    {
+        "time": 66.57,
+        "note": "F#"
+    },
+    {
+        "time": 66.78,
+        "note": "A#"
+    },
+    {
+        "time": 67.01,
         "note": "C#"
     },
     {
-        "time": 69.71,
+        "time": 67.22,
+        "note": "E"
+    },
+    {
+        "time": 67.45,
+        "note": "D"
+    },
+    {
+        "time": 67.66,
+        "note": "A#"
+    },
+    {
+        "time": 67.85,
+        "note": "E"
+    },
+    {
+        "time": 68.08,
         "note": "B"
     },
     {
-        "time": 69.96,
-        "note": "C#"
+        "time": 68.31,
+        "note": "G"
     },
     {
-        "time": 70.1,
-        "note": "C#"
-    },
-    {
-        "time": 70.19,
-        "note": "C#"
-    },
-    {
-        "time": 70.43,
-        "note": "E"
-    },
-    {
-        "time": 70.64,
-        "note": "C#"
-    },
-    {
-        "time": 70.89,
-        "note": "C#"
-    },
-    {
-        "time": 71.12,
+        "time": 68.55,
         "note": "C"
     },
     {
-        "time": 71.33,
-        "note": "E"
+        "time": 68.75,
+        "note": "D#"
     },
     {
-        "time": 71.49,
-        "note": "E"
+        "time": 69.01,
+        "note": "G"
     },
     {
-        "time": 71.56,
-        "note": "C#"
+        "time": 69.47,
+        "note": "G#"
     },
     {
-        "time": 71.8,
-        "note": "E"
-    },
-    {
-        "time": 71.96,
-        "note": "E"
-    },
-    {
-        "time": 72.26,
+        "time": 69.71,
         "note": "F#"
     },
     {
-        "time": 72.47,
+        "time": 70.03,
+        "note": "F"
+    },
+    {
+        "time": 70.33,
+        "note": "E"
+    },
+    {
+        "time": 70.61,
         "note": "G#"
     },
     {
-        "time": 72.72,
-        "note": "G#"
+        "time": 70.84,
+        "note": "D"
+    },
+    {
+        "time": 71.08,
+        "note": "A#"
+    },
+    {
+        "time": 71.29,
+        "note": "A#"
+    },
+    {
+        "time": 71.52,
+        "note": "D"
+    },
+    {
+        "time": 71.84,
+        "note": "F#"
+    },
+    {
+        "time": 72.14,
+        "note": "F#"
+    },
+    {
+        "time": 72.63,
+        "note": "F#"
     },
     {
         "time": 72.89,
-        "note": "G#"
-    },
-    {
-        "time": 72.96,
-        "note": "G#"
-    },
-    {
-        "time": 73.1,
-        "note": "G#"
-    },
-    {
-        "time": 73.19,
         "note": "F#"
+    },
+    {
+        "time": 73.07,
+        "note": "D"
     },
     {
         "time": 73.33,
-        "note": "F#"
-    },
-    {
-        "time": 73.4,
-        "note": "G#"
+        "note": "D#"
     },
     {
         "time": 73.65,
         "note": "F#"
     },
     {
-        "time": 73.79,
-        "note": "F#"
-    },
-    {
-        "time": 73.89,
-        "note": "A"
-    },
-    {
-        "time": 74.09,
-        "note": "A"
-    },
-    {
-        "time": 74.33,
-        "note": "A"
-    },
-    {
-        "time": 74.56,
-        "note": "B"
-    },
-    {
-        "time": 74.79,
-        "note": "A"
-    },
-    {
-        "time": 75.02,
-        "note": "A"
-    },
-    {
-        "time": 75.26,
-        "note": "B"
-    },
-    {
-        "time": 75.49,
-        "note": "A"
-    },
-    {
-        "time": 75.72,
-        "note": "B"
-    },
-    {
-        "time": 75.95,
-        "note": "B"
-    },
-    {
-        "time": 76.18,
-        "note": "B"
-    },
-    {
-        "time": 76.42,
-        "note": "C#"
-    },
-    {
-        "time": 76.65,
-        "note": "B"
-    },
-    {
-        "time": 76.88,
-        "note": "B"
-    },
-    {
-        "time": 77.11,
-        "note": "C#"
-    },
-    {
-        "time": 77.35,
-        "note": "B"
-    },
-    {
-        "time": 77.58,
-        "note": "C#"
-    },
-    {
-        "time": 77.81,
-        "note": "C#"
-    },
-    {
-        "time": 78.25,
-        "note": "C#"
-    },
-    {
-        "time": 78.51,
-        "note": "C#"
-    },
-    {
-        "time": 79.18,
-        "note": "C"
-    },
-    {
-        "time": 80.11,
-        "note": "C#"
-    },
-    {
-        "time": 80.34,
-        "note": "C#"
-    },
-    {
-        "time": 80.81,
-        "note": "C#"
-    },
-    {
-        "time": 81.04,
-        "note": "C#"
-    },
-    {
-        "time": 81.27,
-        "note": "A"
-    },
-    {
-        "time": 81.5,
-        "note": "A"
-    },
-    {
-        "time": 81.97,
-        "note": "B"
-    },
-    {
-        "time": 82.2,
-        "note": "A"
-    },
-    {
-        "time": 83.1,
-        "note": "B"
-    },
-    {
-        "time": 83.8,
-        "note": "C#"
-    },
-    {
-        "time": 84.03,
-        "note": "B"
-    },
-    {
-        "time": 84.73,
-        "note": "B"
-    },
-    {
-        "time": 85.19,
-        "note": "C#"
-    },
-    {
-        "time": 85.43,
-        "note": "C#"
-    },
-    {
-        "time": 86.8,
-        "note": "G#"
-    },
-    {
-        "time": 87.49,
-        "note": "F#"
-    },
-    {
-        "time": 87.72,
-        "note": "C#"
-    },
-    {
-        "time": 87.96,
-        "note": "C#"
-    },
-    {
-        "time": 88.07,
-        "note": "C#"
-    },
-    {
-        "time": 88.19,
-        "note": "C#"
-    },
-    {
-        "time": 88.42,
-        "note": "C"
-    },
-    {
-        "time": 88.65,
-        "note": "D"
-    },
-    {
-        "time": 88.89,
-        "note": "G"
-    },
-    {
-        "time": 89.09,
-        "note": "G#"
-    },
-    {
-        "time": 89.35,
-        "note": "G"
-    },
-    {
-        "time": 89.56,
-        "note": "G"
-    },
-    {
-        "time": 89.81,
-        "note": "F#"
-    },
-    {
-        "time": 90.02,
-        "note": "G"
-    },
-    {
-        "time": 90.26,
-        "note": "N/A"
-    },
-    {
-        "time": 90.44,
-        "note": "A"
-    },
-    {
-        "time": 90.49,
-        "note": "F"
-    },
-    {
-        "time": 90.72,
-        "note": "N/A"
-    },
-    {
-        "time": 90.93,
-        "note": "C"
-    },
-    {
-        "time": 91.18,
-        "note": "N/A"
-    },
-    {
-        "time": 91.42,
-        "note": "D"
-    },
-    {
-        "time": 91.65,
-        "note": "N/A"
-    },
-    {
-        "time": 91.86,
-        "note": "A"
-    },
-    {
-        "time": 92.11,
-        "note": "F"
-    },
-    {
-        "time": 92.23,
-        "note": "B"
-    },
-    {
-        "time": 92.35,
-        "note": "D"
-    },
-    {
-        "time": 92.58,
-        "note": "N/A"
-    },
-    {
-        "time": 92.79,
-        "note": "G"
-    },
-    {
-        "time": 93.04,
-        "note": "G#"
-    },
-    {
-        "time": 93.25,
-        "note": "A"
-    },
-    {
-        "time": 93.51,
+        "time": 73.93,
         "note": "A#"
     },
     {
-        "time": 93.72,
+        "time": 74.19,
         "note": "F"
     },
     {
-        "time": 93.95,
-        "note": "C#"
-    },
-    {
-        "time": 94.13,
-        "note": "C#"
-    },
-    {
-        "time": 94.18,
-        "note": "G"
-    },
-    {
-        "time": 94.44,
-        "note": "C#"
-    },
-    {
-        "time": 94.62,
-        "note": "C#"
-    },
-    {
-        "time": 94.88,
-        "note": "N/A"
-    },
-    {
-        "time": 95.11,
-        "note": "F"
-    },
-    {
-        "time": 95.34,
-        "note": "F"
-    },
-    {
-        "time": 95.57,
-        "note": "D"
-    },
-    {
-        "time": 95.81,
-        "note": "N/A"
-    },
-    {
-        "time": 96.04,
-        "note": "D"
-    },
-    {
-        "time": 96.27,
-        "note": "N/A"
-    },
-    {
-        "time": 96.48,
-        "note": "A"
-    },
-    {
-        "time": 96.73,
-        "note": "A"
-    },
-    {
-        "time": 96.94,
-        "note": "A"
-    },
-    {
-        "time": 97.18,
-        "note": "F"
-    },
-    {
-        "time": 97.41,
-        "note": "F"
-    },
-    {
-        "time": 97.64,
-        "note": "F"
-    },
-    {
-        "time": 97.83,
-        "note": "A"
-    },
-    {
-        "time": 97.87,
-        "note": "G"
-    },
-    {
-        "time": 98.1,
-        "note": "F"
-    },
-    {
-        "time": 98.31,
-        "note": "A#"
-    },
-    {
-        "time": 98.57,
-        "note": "N/A"
-    },
-    {
-        "time": 98.8,
-        "note": "F"
-    },
-    {
-        "time": 99.03,
-        "note": "C"
-    },
-    {
-        "time": 99.24,
-        "note": "A#"
-    },
-    {
-        "time": 99.5,
-        "note": "F"
-    },
-    {
-        "time": 99.61,
-        "note": "B"
-    },
-    {
-        "time": 99.73,
-        "note": "D"
-    },
-    {
-        "time": 99.96,
-        "note": "C#"
-    },
-    {
-        "time": 100.17,
-        "note": "A"
-    },
-    {
-        "time": 100.4,
-        "note": "F"
-    },
-    {
-        "time": 100.64,
-        "note": "A"
-    },
-    {
-        "time": 100.87,
-        "note": "N/A"
-    },
-    {
-        "time": 101.1,
-        "note": "G"
-    },
-    {
-        "time": 101.33,
-        "note": "F"
-    },
-    {
-        "time": 101.49,
-        "note": "F"
-    },
-    {
-        "time": 101.56,
-        "note": "G"
-    },
-    {
-        "time": 101.8,
-        "note": "N/A"
-    },
-    {
-        "time": 102.01,
-        "note": "A#"
-    },
-    {
-        "time": 102.26,
-        "note": "N/A"
-    },
-    {
-        "time": 102.4,
+        "time": 74.42,
         "note": "G#"
     },
     {
-        "time": 102.49,
-        "note": "N/A"
+        "time": 74.65,
+        "note": "A#"
     },
     {
-        "time": 102.73,
-        "note": "N/A"
+        "time": 74.86,
+        "note": "D#"
     },
     {
-        "time": 102.96,
-        "note": "N/A"
-    },
-    {
-        "time": 103.19,
-        "note": "N/A"
-    },
-    {
-        "time": 103.31,
-        "note": "G#"
-    },
-    {
-        "time": 103.4,
-        "note": "A"
-    },
-    {
-        "time": 103.54,
-        "note": "C"
-    },
-    {
-        "time": 103.65,
-        "note": "G"
-    },
-    {
-        "time": 103.86,
-        "note": "G#"
-    },
-    {
-        "time": 104.12,
-        "note": "N/A"
-    },
-    {
-        "time": 104.33,
-        "note": "G"
-    },
-    {
-        "time": 104.58,
-        "note": "A"
-    },
-    {
-        "time": 104.79,
-        "note": "G"
-    },
-    {
-        "time": 105.02,
-        "note": "A"
-    },
-    {
-        "time": 105.21,
-        "note": "A"
-    },
-    {
-        "time": 105.26,
-        "note": "F"
-    },
-    {
-        "time": 105.42,
-        "note": "C"
-    },
-    {
-        "time": 105.49,
-        "note": "B"
-    },
-    {
-        "time": 105.7,
-        "note": "G"
-    },
-    {
-        "time": 105.95,
-        "note": "F"
-    },
-    {
-        "time": 106.18,
-        "note": "F"
-    },
-    {
-        "time": 106.42,
-        "note": "B"
-    },
-    {
-        "time": 106.63,
-        "note": "C"
-    },
-    {
-        "time": 106.88,
-        "note": "B"
-    },
-    {
-        "time": 107.11,
-        "note": "D"
-    },
-    {
-        "time": 107.35,
-        "note": "F"
-    },
-    {
-        "time": 107.55,
-        "note": "A"
-    },
-    {
-        "time": 107.81,
-        "note": "C"
-    },
-    {
-        "time": 108.02,
-        "note": "A"
-    },
-    {
-        "time": 108.27,
+        "time": 75.07,
         "note": "E"
     },
     {
-        "time": 108.48,
-        "note": "C"
+        "time": 75.3,
+        "note": "B"
     },
     {
-        "time": 108.72,
-        "note": "N/A"
-    },
-    {
-        "time": 108.88,
-        "note": "C#"
-    },
-    {
-        "time": 108.97,
-        "note": "C"
-    },
-    {
-        "time": 109.11,
-        "note": "C"
-    },
-    {
-        "time": 109.2,
-        "note": "C#"
-    },
-    {
-        "time": 109.41,
-        "note": "F"
-    },
-    {
-        "time": 109.64,
-        "note": "C#"
-    },
-    {
-        "time": 109.88,
-        "note": "F"
-    },
-    {
-        "time": 110.11,
-        "note": "C#"
-    },
-    {
-        "time": 110.34,
+        "time": 75.53,
         "note": "D"
     },
     {
-        "time": 110.57,
-        "note": "C#"
-    },
-    {
-        "time": 110.81,
-        "note": "D"
-    },
-    {
-        "time": 111.04,
-        "note": "A"
-    },
-    {
-        "time": 111.25,
-        "note": "A"
-    },
-    {
-        "time": 111.5,
-        "note": "B"
-    },
-    {
-        "time": 111.71,
-        "note": "A"
-    },
-    {
-        "time": 111.94,
-        "note": "A"
-    },
-    {
-        "time": 112.18,
-        "note": "N/A"
-    },
-    {
-        "time": 112.41,
-        "note": "A"
-    },
-    {
-        "time": 112.57,
-        "note": "A"
-    },
-    {
-        "time": 112.66,
-        "note": "C"
-    },
-    {
-        "time": 112.8,
-        "note": "C"
-    },
-    {
-        "time": 112.87,
-        "note": "B"
-    },
-    {
-        "time": 113.1,
-        "note": "D"
-    },
-    {
-        "time": 113.34,
-        "note": "B"
-    },
-    {
-        "time": 113.57,
-        "note": "F"
-    },
-    {
-        "time": 113.8,
-        "note": "B"
-    },
-    {
-        "time": 114.01,
-        "note": "C"
-    },
-    {
-        "time": 114.27,
-        "note": "B"
-    },
-    {
-        "time": 114.5,
-        "note": "D"
-    },
-    {
-        "time": 114.64,
-        "note": "C"
-    },
-    {
-        "time": 114.73,
-        "note": "C#"
-    },
-    {
-        "time": 114.94,
-        "note": "C#"
-    },
-    {
-        "time": 115.17,
-        "note": "C#"
-    },
-    {
-        "time": 115.4,
-        "note": "A"
-    },
-    {
-        "time": 115.64,
-        "note": "C#"
-    },
-    {
-        "time": 115.87,
-        "note": "G"
-    },
-    {
-        "time": 116.1,
-        "note": "C#"
-    },
-    {
-        "time": 116.26,
-        "note": "C#"
-    },
-    {
-        "time": 116.36,
-        "note": "N/A"
-    },
-    {
-        "time": 116.56,
-        "note": "F#"
-    },
-    {
-        "time": 116.8,
+        "time": 75.77,
         "note": "G#"
     },
     {
-        "time": 117.03,
-        "note": "G#"
+        "time": 76.07,
+        "note": "E"
     },
     {
-        "time": 117.26,
-        "note": "G#"
+        "time": 78.85,
+        "note": "A#"
     },
     {
-        "time": 117.49,
-        "note": "F#"
-    },
-    {
-        "time": 117.73,
-        "note": "G#"
-    },
-    {
-        "time": 117.96,
-        "note": "F#"
-    },
-    {
-        "time": 118.12,
-        "note": "F#"
+        "time": 79.02,
+        "note": "E"
     }
 ]

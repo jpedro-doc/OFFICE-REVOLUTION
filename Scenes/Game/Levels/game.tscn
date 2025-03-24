@@ -1,7 +1,9 @@
-[gd_scene load_steps=19 format=3 uid="uid://2o4naec7ilhi"]
+[gd_scene load_steps=23 format=3 uid="uid://2o4naec7ilhi"]
+
 
 [ext_resource type="Script" uid="uid://bu02q5uvu037q" path="res://Scripts/Game/game.gd" id="1_ciybh"]
 [ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="2_flgk0"]
+[ext_resource type="Shader" uid="uid://brl8n71jl3a0v" path="res://Assets/Themes/galaxy.gdshader" id="2_i4g5t"]
 [ext_resource type="PackedScene" uid="uid://bm1edone05lx7" path="res://Scenes/Game/Arrows/blank_arrows.tscn" id="4_xfil1"]
 [ext_resource type="Script" uid="uid://du2i55nuxrvyl" path="res://Globals/instantiator.gd" id="5_huoen"]
 [ext_resource type="Texture2D" uid="uid://cu1r78j2y5twp" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (1).png" id="6_3ejvm"]
@@ -16,6 +18,11 @@
 [ext_resource type="Texture2D" uid="uid://dirkre5vw5xg0" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (11).png" id="14_uihqp"]
 [ext_resource type="Texture2D" uid="uid://cuk4thbkfyls1" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop (12).png" id="15_plxbj"]
 [ext_resource type="Texture2D" uid="uid://db4w8aqj2fvsd" path="res://Imagens Personagens/player/Captura_de_tela_2025-03-19_130811-removebg-preview-ezgif.com-crop.png" id="16_gegif"]
+[ext_resource type="Texture2D" uid="uid://dplse6kgqj3v2" path="res://Assets/Images/download.jpeg" id="18_wthbm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wthbm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4rjfh"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_11r3b"]
 animations = [{
@@ -58,12 +65,15 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="Curve" id="Curve_3ejvm"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4r1fh"]
 _data = [Vector2(0.00581396, 1), 0.0, 0.0, 0, 0, Vector2(0.994176, 0.247191), 0.0, 0.0, 0, 0]
 point_count = 2
+shader = ExtResource("2_i4g5t")
+shader_parameter/influence = 0.38
 
 [node name="Game" type="Node2D"]
 process_mode = 1
+material = SubResource("ShaderMaterial_wthbm")
 script = ExtResource("1_ciybh")
 difference = 0.25
 
@@ -86,15 +96,25 @@ offset_right = 40.0
 offset_bottom = 23.0
 theme_override_fonts/font = ExtResource("6_snmm7")
 theme_override_font_sizes/font_size = 24
-text = "score:"
+text = "score:0"
+
+[node name="vida" type="Label" parent="."]
+offset_left = 1032.0
+offset_right = 1128.0
+offset_bottom = 24.0
+theme_override_fonts/font = ExtResource("6_snmm7")
+theme_override_font_sizes/font_size = 24
+text = "Vida:"
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+material = SubResource("ShaderMaterial_4rjfh")
 position = Vector2(186.218, 450.202)
 scale = Vector2(1.963, 1.273)
 sprite_frames = SubResource("SpriteFrames_11r3b")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame_progress = 0.837662
+
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
 unique_name_in_owner = true
@@ -110,3 +130,13 @@ scale_amount_min = 2.0
 scale_amount_max = 4.0
 scale_amount_curve = SubResource("Curve_3ejvm")
 color = Color(0.593705, 0.656572, 0.841414, 1)
+[node name="Quirrel" type="Node2D" parent="."]
+
+[node name="rainbow" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.12549)
+material = SubResource("ShaderMaterial_4r1fh")
+position = Vector2(588.5, 324.5)
+scale = Vector2(1.62364, 0.41897)
+texture = ExtResource("18_wthbm")
+
