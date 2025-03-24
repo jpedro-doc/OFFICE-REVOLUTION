@@ -122,25 +122,6 @@ animations = [{
 "speed": 7.0
 }]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_go03x"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ftefy"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_txnut"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ped3l"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_id0c5"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_01440"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6mjo2"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ktfp2"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o6i6i"]
-
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_emmpc"]
 animations = [{
 "frames": [{
@@ -179,22 +160,6 @@ animations = [{
 "speed": 5.0
 }]
 
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_56h8q"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1d73e"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2vin6"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i4pn1"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n2dj2"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wo5hx"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2ud6m"]
-
-
 [sub_resource type="SpriteFrames" id="SpriteFrames_2oobv"]
 animations = [{
 "frames": [{
@@ -223,26 +188,6 @@ animations = [{
 "name": &"new_animation",
 "speed": 5.0
 }]
-
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n16ks"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jlxid"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6iq3j"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8h443"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_iq6o2"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lp0va"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c4x00"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ay2lt"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mnu6k"]
-
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qbnh2"]
 animations = [{
@@ -323,10 +268,9 @@ frame = 2
 frame_progress = 0.84336
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2(2065, 433)
+position = Vector2(1903, 297)
 scale = Vector2(10, 10)
-emitting = false
-amount = 600
+amount = 3000
 explosiveness = 1.0
 spread = 180.0
 gravity = Vector2(0, 0)
@@ -335,3 +279,18 @@ initial_velocity_max = 100.0
 scale_amount_min = 2.0
 scale_amount_max = 4.0
 scale_amount_curve = SubResource("Curve_janm4")
+color = Color(0.593705, 0.656572, 0.841414, 1)
+
+[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
+position = Vector2(2221, 651)
+scale = Vector2(10, 10)
+amount = 3000
+explosiveness = 1.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 100.0
+scale_amount_min = 2.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_janm4")
+color = Color(0.836415, 0.581619, 0.701761, 1)
