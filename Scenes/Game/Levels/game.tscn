@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://2o4naec7ilhi"]
+[gd_scene load_steps=19 format=3 uid="uid://2o4naec7ilhi"]
 
 [ext_resource type="Script" uid="uid://bu02q5uvu037q" path="res://Scripts/Game/game.gd" id="1_ciybh"]
 [ext_resource type="Texture2D" uid="uid://d3a7e83ckxu3h" path="res://Assets/Images/Imagem do WhatsApp de 2025-03-14 à(s) 11.27.01_0d5adc0c.jpg" id="2_flgk0"]
@@ -58,6 +58,10 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="Curve" id="Curve_3ejvm"]
+_data = [Vector2(0.00581396, 1), 0.0, 0.0, 0, 0, Vector2(0.994176, 0.247191), 0.0, 0.0, 0, 0]
+point_count = 2
+
 [node name="Game" type="Node2D"]
 process_mode = 1
 script = ExtResource("1_ciybh")
@@ -91,3 +95,18 @@ sprite_frames = SubResource("SpriteFrames_11r3b")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame_progress = 0.837662
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(979, 428)
+scale = Vector2(10, 10)
+amount = 1500
+explosiveness = 1.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 100.0
+scale_amount_min = 2.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_3ejvm")
+color = Color(0.593705, 0.656572, 0.841414, 1)

@@ -38,20 +38,17 @@ theme_override_constants/margin_bottom = 12
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
 layout_mode = 2
 theme_override_constants/separation = 96
+alignment = 1
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 192
-
-[node name="Arrow" parent="MarginContainer/HBoxContainer/VBoxContainer2" instance=ExtResource("2_occwr")]
-position = Vector2(129, 45)
+[node name="Arrow" parent="MarginContainer/HBoxContainer" instance=ExtResource("2_occwr")]
+position = Vector2(362, 45)
 
 [node name="separator4" type="Control" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 
 [node name="EnemysContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
-theme_override_constants/separation = 204
+theme_override_constants/separation = 160
 
 [node name="LevelSelect" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
 layout_mode = 2
@@ -71,6 +68,12 @@ enemy_name = "boss"
 enemy_scene = "res://Scenes/Game/Levels/Boss_level.tscn"
 enemy_sprite = "res://Assets/Images/Enemies/Chefe.png"
 
+[node name="LevelSelect4" parent="MarginContainer/HBoxContainer/EnemysContainer" instance=ExtResource("2_g86n7")]
+layout_mode = 2
+enemy_name = "custom"
+enemy_scene = "res://Scenes/SelectMenu/Chose_Music_character.tscn"
+enemy_sprite = "res://Assets/Images/Enemies/kindpng_1062032.png"
+
 [node name="separator2" type="Control" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 
@@ -79,28 +82,6 @@ layout_mode = 2
 
 [node name="separator5" type="Control" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
-
-[node name="EnemysContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 204
-
-[node name="LevelSelect" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
-layout_mode = 2
-enemy_name = "janitor"
-enemy_scene = "res://Scenes/Game/Levels/Janitor.tscn"
-enemy_sprite = "res://Scenes/Game/Levels/Janitor_level.tscn"
-
-[node name="LevelSelect2" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
-layout_mode = 2
-enemy_name = "Secretaria"
-enemy_scene = "res://Scenes/Game/Levels/Secretary_level.tscn"
-enemy_sprite = "res://Assets/Images/Enemies/Secretaria.png"
-
-[node name="LevelSelect3" parent="MarginContainer/HBoxContainer/EnemysContainer2" instance=ExtResource("2_g86n7")]
-layout_mode = 2
-enemy_name = "Chefe"
-enemy_scene = "res://Scenes/Game/game.tscn"
-enemy_sprite = "res://Assets/Images/Enemies/Zelador.png"
 
 [node name="Instantiator" type="Node2D" parent="."]
 script = ExtResource("6_vkje1")

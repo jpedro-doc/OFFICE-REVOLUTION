@@ -100,7 +100,6 @@ animations = [{
 [node name="AnimatedSprite2D4" parent="." index="4"]
 scale = Vector2(1.85539, 1.27293)
 frame_progress = 0.161318
-flip_h = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="5"]
 position = Vector2(949, 450.202)
@@ -108,3 +107,4 @@ scale = Vector2(2, 1.73888)
 sprite_frames = SubResource("SpriteFrames_w1bve")
 autoplay = "default"
 frame_progress = 0.571892
+flip_h = true

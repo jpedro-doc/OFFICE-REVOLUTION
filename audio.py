@@ -2,6 +2,7 @@ import librosa
 import librosa.display
 import json
 import numpy as np
+import sys
 
 def hz_to_note(freq):
     if freq == 0:
@@ -33,8 +34,7 @@ def analyze_music(file_path):
 
     with open("notes_chart.json", "w") as f:
         json.dump(detected_notes, f, indent=4)
+    
 
-    print(f"✅ Analysis complete! Detected notes saved to 'notes_chart.json'.")
 
-
-analyze_music("Assets/Music/4. Pow Pow Lazers.wav")
+analyze_music(sys.argv[1])

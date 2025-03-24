@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://u7hmnmo7r1c4"
+path="res://.godot/imported/Jojo Torture Dance GIF - Jojo Torture Dance Narancia - Descobrir e Compartilhar GIFs.gif-7f4afe62d3817c34e0299a736da48f24.tres"
+
+[deps]
+
+source_file="res://Assets/Jojo Torture Dance GIF - Jojo Torture Dance Narancia - Descobrir e Compartilhar GIFs.gif"
+dest_files=["res://.godot/imported/Jojo Torture Dance GIF - Jojo Torture Dance Narancia - Descobrir e Compartilhar GIFs.gif-7f4afe62d3817c34e0299a736da48f24.tres"]
+
+[params]
+
+frames_per_second=30

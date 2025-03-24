@@ -9,7 +9,7 @@ var score:int = 0: set = _set_score_label
 var hit_score:int = 50
 var miss_score:int = 25
 var rainbow_mult:int = 5
-
+var consecutive_hits: int
 var arrow_pressed_coords:int = 2
 
 @onready var game = get_parent()
@@ -30,7 +30,7 @@ func _process(delta: float) -> void:
 		if $left/Area2D.has_overlapping_areas():
 			$left/Area2D.get_overlapping_areas().filter(get_rid)
 		else:
-
+				
 			score -= 1
 			arrow_select.perder_vida()
 	

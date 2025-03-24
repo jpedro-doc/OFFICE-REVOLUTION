@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://vrit7hpt1swh"
+path="res://.godot/imported/undefined - Imgur.gif-e9a18c8cb947965573d198dba2247016.tres"
+
+[deps]
+
+source_file="res://Assets/undefined - Imgur.gif"
+dest_files=["res://.godot/imported/undefined - Imgur.gif-e9a18c8cb947965573d198dba2247016.tres"]
+
+[params]
+
+frames_per_second=30

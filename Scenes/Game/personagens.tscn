@@ -268,10 +268,9 @@ frame = 2
 frame_progress = 0.84336
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
-position = Vector2(2065, 433)
+position = Vector2(1903, 297)
 scale = Vector2(10, 10)
-emitting = false
-amount = 600
+amount = 3000
 explosiveness = 1.0
 spread = 180.0
 gravity = Vector2(0, 0)
@@ -280,3 +279,18 @@ initial_velocity_max = 100.0
 scale_amount_min = 2.0
 scale_amount_max = 4.0
 scale_amount_curve = SubResource("Curve_janm4")
+color = Color(0.593705, 0.656572, 0.841414, 1)
+
+[node name="CPUParticles2D2" type="CPUParticles2D" parent="."]
+position = Vector2(2221, 651)
+scale = Vector2(10, 10)
+amount = 3000
+explosiveness = 1.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 100.0
+scale_amount_min = 2.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_janm4")
+color = Color(0.836415, 0.581619, 0.701761, 1)
